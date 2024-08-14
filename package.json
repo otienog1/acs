@@ -1,0 +1,29 @@
+{
+  "name": "starlyn",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@types/node": "18.16.3",
+    "@types/react": "latest",
+    "@types/react-dom": "latest",
+    "autoprefixer": "10.4.14",
+    "eslint": "8.39.0",
+    "eslint-config-next": "latest",
+    "gsap": "^3.11.5",
+    "next": "latest",
+    "postcss": "8.4.23",
+    "react": "latest",
+    "react-dom": "latest",
+    "react-query": "^3.39.3",
+    "sharp": "^0.32.1",
+    "tailwindcss": "3.3.2",
+    "typescript": "5.0.4"
+  },
+  "packageManager": "yarn@3.5.1"
+}
