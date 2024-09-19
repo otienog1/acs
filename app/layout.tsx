@@ -12,7 +12,7 @@ const poppins = Source_Sans_3({
 })
 
 export const metadata = {
-    title: 'Starlyn Thrilling Adventures',
+    title: 'African Citril Safaris',
     description: 'Destination Management Company',
 }
 
