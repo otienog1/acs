@@ -9,7 +9,7 @@ const HomePage = async () => {
 
     return (
         <main className="min-h-screen justify-center">
-            <div className="h-screen md:h-[calc(100vh-80px)] xl:h-[calc(100vh-140px)]">
+            <div className="h-screen md:h-[calc(100vh)] xl:h-[calc(100vh)] relative"> {/* Added relative positioning */}
                 <Slider
                     slides={page.acf.section_1.slider}
                     autoplay={!0}
@@ -19,20 +19,22 @@ const HomePage = async () => {
                     current={0}
                     RAF={0}
                 />
-            </div>
-            {/* <div className="grid grid-cols-1 2xl:py-72 md:py-36">
-                <div className="container mx-auto sm:px-24">
-                    <div
-                        className="leading-10 text-xl tracking-wide"
-                        dangerouslySetInnerHTML={
-                            {
-                                __html: page.acf.section_2.content
-                            }
-                        }
-                    >
-                    </div>
+                <div className="absolute right-0 top-1/2 transform -translate-y-1/2"> {/* New div for absolute positioning */}
+                    {/* Your first div content here */}
                 </div>
-            </div> */}
+                <div className="absolute right-0 top-1/2 transform -translate-y-1/2"> {/* New div for absolute positioning */}
+                    {/* Your second div content here */}
+                </div>
+            </div>
+
+            <div className="grid grid-cols-1 py-24">
+                <div className="container mx-auto">
+                    <h1 className="tracking-wide text-center text-4xl font-medium">
+                        Safari Experts in East Africa
+                    </h1>
+                </div>
+            </div>
+
             <div className="" style={{ backgroundColor: 'rgba(27, 118, 50, .1)' }}>
                 <div className="container mx-auto">
                     <div className="grid grid-cols-1 md:grid-cols-2">
@@ -64,40 +66,56 @@ const HomePage = async () => {
                 </div>
             </div>
             <div className="py-12 md:py-28">
-                <div className="container mx-auto">
-                    <div className="max-w-2xl text-center mx-auto mb-16 px-4">
-                        <h2 className="font-heading mb-5 text-6xl tracking-tighter">
-                            {page.acf.section_3.our_tours.title}
+                <div className="container mx-auto max-w-screen-xl relative">
+                    <div className="h-screen md:h-[calc(60vh)] xl:h-[calc(70vh)] md:w-[calc(60vw)]">
+                        <Slider
+                            slides={page.acf.section_1.slider}
+                            autoplay={!0}
+                            direction="next"
+                            speed={2}
+                            duration={10}
+                            current={0}
+                            RAF={0}
+                        />
+                    </div>
+                    <div className="absolute right-0 top-1/2 -translate-y-1/2 bg-slate-400 w-[calc(30vw)] h-48 z-0"></div>
+                    <div className="max-w-2xl mx-auto mb-16 mr-1 p-4 absolute right-0 top-1/2 -translate-y-1/2 w-[calc(30vw)] z-[4] bg-white">
+                        <h2 className="font-heading mb-5 text-3xl tracking-widest">
+                            Experience
                         </h2>
-                        <p className="text-xl tracking-tight">
+                        <p className="text-base tracking-tight">
                             Our signature itineraries combine recommended safari experiences with preferred destinations throughout East Africa, offering immersive adventures that showcase diverse landscapes, abundant wildlife, and remarkable cultural encounters.
                         </p>
                     </div>
-                    <div className="flex flex-wrap px-4">
-                        {page.acf.section_3.tours.map((tour: any, i: any) => (
-                            <div className="w-full md:w-1/2 lg:w-1/4 p-4" key={i}>
-                                <div className="group cursor-pointer">
-                                    <Link href={`/experience/${tour.slug}`} >
-                                        <div className="mb-4 rounded overflow-hidden h-52 relative">
-                                            <Image
-                                                className="w-full rounded transform hover:scale-105 transition duration-500"
-                                                src={tour.image}
-                                                alt={tour.title}
-                                                fill
-                                                style={{ objectFit: 'cover' }}
-                                            />
-                                        </div>
-                                    </Link>
-                                    <p className="text-indigo-500 font-semibold tracking-tight">{tour.destination}</p>
-                                    <h3 className="text-xl group-hover:text-gray-900 font-semibold group-hover:underline">{tour.title}</h3>
-                                    <span className="text-sm text-gray-600 tracking-tight">{tour.days}</span>
-                                </div>
-                            </div>
-                        ))}
+                </div>
+            </div>
+
+            <div className="pb-12 md:pb-28">
+                <div className="container mx-auto max-w-screen-xl relative flex justify-end">
+                    <div className="h-screen md:h-[calc(60vh)] xl:h-[calc(70vh)] md:w-[calc(60vw)]">
+                        <Slider
+                            slides={page.acf.section_1.slider}
+                            autoplay={!0}
+                            direction="next"
+                            speed={2}
+                            duration={10}
+                            current={0}
+                            RAF={0}
+                        />
+                    </div>
+                    <div className="absolute left-0 top-1/2 -translate-y-1/2 bg-slate-400 w-[calc(30vw)] h-[145px] z-0"></div>
+                    <div className="max-w-2xl mx-auto mb-16 ml-1 p-4 absolute left-0 top-1/2 -translate-y-1/2 w-[calc(30vw)] z-[4] bg-white">
+                        <h2 className="font-heading mb-5 text-3xl tracking-widest">
+                            Destinations
+                        </h2>
+                        <p className="text-base tracking-tight">
+                            Embark on an unparalleled journey of comfort and adventure in Kenya and Tanzania.
+                        </p>
                     </div>
                 </div>
             </div>
-            <div className="container px-4 mx-auto text-center pb-24 md:pb-32" >
+
+            {/* <div className="container px-4 mx-auto text-center pb-24 md:pb-32" >
                 <h2 className="font-heading mb-5 text-6xl tracking-tighter">
                     {page.acf.section_4.title}
                 </h2>
@@ -111,10 +129,10 @@ const HomePage = async () => {
                 >
 
                 </div>
-            </div>
-            {/* <div className="grid grid-cols-1 md:grid-cols-2">
-                <div className="bg-gray-100 p-12 md:p-24 flex justify-start items-center">
-                    <div className="max-w-md">
+            </div> */}
+            <div className="w-full bg-gray-100">
+                <div className="container mx-auto max-w-screen-xl p-12 md:p-24 flex justify-start items-center">
+                    <div className="">
                         <h2 className="text-xl lg:text-2xl mb-8 tracking-widest uppercase">
                             {page.acf.section_5.mission_and_values.title}
                         </h2>
@@ -127,8 +145,7 @@ const HomePage = async () => {
                             }></div>
                     </div>
                 </div>
-                <div className="bg-white p-12 md:p-24 flex justify-end items-center">123</div>
-            </div> */}
+            </div>
             <div className="py-24 lg:py-28 overflow-hidden" style={{ background: `url(${page.acf.section_7.image})`, backgroundRepeat: "no-repeat", backgroundSize: "cover" }}>
                 <div className="container px-4 mx-auto">
                     <div className="max-w-xl mx-auto text-center">

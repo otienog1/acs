@@ -5,12 +5,12 @@ import Logo from '../public/_Logo.svg'
 const Footer = () => {
     return (
         <footer className="bg-gray-900 text-white text-opacity-40 font-semibold uppercase text-xs tracking-widest bg-opacity-80 px-12">
-            <div className="container mx-auto grid grid-cols-1 lg:grid-cols-4 gap-12 text-center lg:text-left pt-16 pb-10">
+            <div className="container max-w-screen-xl mx-auto grid grid-cols-1 lg:grid-cols-4 gap-12 text-center lg:text-left pt-16 pb-10">
                 <div className="flex justify-center md:justify-start">
                     <Image
                         src={Logo}
-                        width={137}
-                        height={115}
+                        width={137 * 2}
+                        height={115 * 2}
                         alt="Starlyn Thrilling Adventures"
                     />
                 </div>

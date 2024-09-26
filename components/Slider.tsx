@@ -120,7 +120,7 @@ const Slider = (props: any) => {
     useEffect(() => { initSlide() }, [initSlide])
 
     return (
-        <div ref={sliders} className="w-full h-full relative overflow-hidden">
+        <div ref={sliders} className="w-full h-full relative overflow-hidden bg-white">
             {
                 Array.from(slides).map((slide: any, i: any) => (
                     <Slide
@@ -140,7 +140,7 @@ const Slide = (props: any) => {
 
     return (
         <div className="slide absolute w-full h-full opacity-0">
-            <div className="relative w-full h-full">
+            <div className="relative w-full h-full bg-white">
                 <Image
                     src={source}
                     alt="Alt"
