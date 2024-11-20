@@ -27,93 +27,121 @@ const HomePage = async () => {
                 </div>
             </div>
 
-            <div className="grid grid-cols-1 py-24">
-                <div className="container mx-auto">
-                    <h1 className="tracking-wide text-center text-4xl font-medium">
-                        Safari Experts in East Africa
-                    </h1>
-                </div>
-            </div>
+            <section className="py-12">
+                <div className="mx-auto max-w-screen-xl px-4 py-8 sm:px-6 lg:px-8">
+                    <div className="grid grid-cols-1 gap-4 md:grid-cols-2">
+                        <div className="p-8 md:p-12 lg:px-16 lg:py-24" style={{ backgroundColor: 'rgba(116, 46, 19, .9)' }}>
+                            <div className="mx-auto max-w-xl text-left ">
+                                <h2 className="text-2xl font-bold text-white md:text-3xl">
+                                    Safari Experts in East Africa
+                                </h2>
 
-            <div className="" style={{ backgroundColor: 'rgba(27, 118, 50, .1)' }}>
-                <div className="container mx-auto">
-                    <div className="grid grid-cols-1 md:grid-cols-2">
-                        <div className="p-12 md:py-24 h-screen 2xl:h-[calc(100vh-100px)]">
-                            <div className="relative h-full w-full">
-                                <Image
-                                    src={page.acf.section_3.image}
-                                    alt="image"
-                                    fill
-                                    style={{ objectFit: "contain", objectPosition: "right" }}
-                                />
-                            </div>
-                        </div>
-                        <div className="p-12 md:p-32 flex justify-end items-center">
-                            <div className="max-w-md">
-                                {/* <div className="w-10 h-0.5 bg-yellow-800 mb-4"></div> */}
-                                {/* <h2 className="text-4xl mb-8 tracking-widest">
-                                    {page.acf.section_3.our_tours.title}
-                                </h2> */}
                                 <div
-                                    className="tracking-wide text-xl leading-8 child:mb-6"
+                                    className="hidden text-white/90 sm:mt-4 sm:block [&>p]:mb-4"
                                     dangerouslySetInnerHTML={
                                         { __html: page.acf.section_3.our_tours.content }
                                     }>
                                 </div>
+
+                                <div className="mt-4 md:mt-8">
+                                    <Link
+                                        href={'/contact'}
+                                        className="inline-block  border border-white bg-white px-12 py-3 text-sm font-medium transition hover:bg-transparent hover:text-white focus:outline-none focus:ring focus:ring-yellow-400"
+                                    >
+                                        Get in touch with us
+                                    </Link>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div className="grid grid-cols-2 gap-4 md:grid-cols-1 lg:grid-cols-2">
+                            <div className="h-40 w-full sm:h-56 md:h-full relative">
+                                <Image
+                                    alt=""
+                                    src="https://images.unsplash.com/photo-1621274790572-7c32596bc67f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=654&q=80"
+                                    className="h-40 w-full object-cover sm:h-56 md:h-full"
+                                    fill
+                                    style={{ objectFit: 'cover' }}
+                                />
+                            </div>
+
+                            <div className="h-40 w-full sm:h-56 md:h-full relative">
+                                <Image
+                                    alt=""
+                                    src="https://images.unsplash.com/photo-1567168544813-cc03465b4fa8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
+                                    fill
+                                    style={{ objectFit: 'cover' }}
+                                />
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
-            <div className="py-12 md:py-28">
-                <div className="container mx-auto max-w-screen-xl relative">
-                    <div className="h-screen md:h-[calc(60vh)] xl:h-[calc(70vh)] md:w-[calc(60vw)]">
-                        <Slider
-                            slides={page.acf.section_1.slider}
-                            autoplay={!0}
-                            direction="next"
-                            speed={2}
-                            duration={10}
-                            current={0}
-                            RAF={0}
-                        />
-                    </div>
-                    <div className="absolute right-0 top-1/2 -translate-y-1/2 bg-slate-400 w-[calc(30vw)] h-48 z-0"></div>
-                    <div className="max-w-2xl mx-auto mb-16 mr-1 p-4 absolute right-0 top-1/2 -translate-y-1/2 w-[calc(30vw)] z-[4] bg-white">
-                        <h2 className="font-heading mb-5 text-3xl tracking-widest">
-                            Experience
-                        </h2>
-                        <p className="text-base tracking-tight">
-                            Our signature itineraries combine recommended safari experiences with preferred destinations throughout East Africa, offering immersive adventures that showcase diverse landscapes, abundant wildlife, and remarkable cultural encounters.
-                        </p>
-                    </div>
-                </div>
-            </div>
+            </section>
 
-            <div className="pb-12 md:pb-28">
-                <div className="container mx-auto max-w-screen-xl relative flex justify-end">
-                    <div className="h-screen md:h-[calc(60vh)] xl:h-[calc(70vh)] md:w-[calc(60vw)]">
-                        <Slider
-                            slides={page.acf.section_1.slider}
-                            autoplay={!0}
-                            direction="next"
-                            speed={2}
-                            duration={10}
-                            current={0}
-                            RAF={0}
-                        />
-                    </div>
-                    <div className="absolute left-0 top-1/2 -translate-y-1/2 bg-slate-400 w-[calc(30vw)] h-[145px] z-0"></div>
-                    <div className="max-w-2xl mx-auto mb-16 ml-1 p-4 absolute left-0 top-1/2 -translate-y-1/2 w-[calc(30vw)] z-[4] bg-white">
-                        <h2 className="font-heading mb-5 text-3xl tracking-widest">
-                            Destinations
-                        </h2>
-                        <p className="text-base tracking-tight">
-                            Embark on an unparalleled journey of comfort and adventure in Kenya and Tanzania.
-                        </p>
+            <section className="pt-8" style={{ backgroundColor: 'rgba(194, 174, 114, .25)' }}>
+                <div className="mx-auto max-w-screen-xl px-4 py-8 sm:px-6 sm:py-12 lg:px-8 lg:py-16">
+                    <div className="grid grid-cols-1 gap-8 lg:grid-cols-2 lg:gap-16">
+
+                        <div className="lg:py-24 lg:order-last">
+                            <h2 className="text-3xl font-bold sm:text-4xl">Experience</h2>
+
+                            <p className="mt-4 text-gray-600">
+                                Our signature itineraries combine recommended safari experiences with preferred destinations
+                                throughout East Africa, offering immersive adventures that showcase diverse landscapes, abundant
+                                wildlife, and remarkable cultural encounters.
+                            </p>
+
+                            <Link
+                                href="#"
+                                className="mt-8 inline-block  px-12 py-3 text-sm font-medium text-white transition hover:bg-indigo-700 focus:outline-none focus:ring focus:ring-yellow-400" style={{ backgroundColor: 'rgba(116, 46, 19,1)' }}
+                            >
+                                Learn More
+                            </Link>
+                        </div>
+
+                        <div className="relative h-64 overflow-hidden -lg sm:h-80 lg:h-full">
+                            <Image
+                                alt=""
+                                src="https://images.unsplash.com/photo-1527529482837-4698179dc6ce?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80"
+                                fill
+                                style={{ objectFit: 'cover' }}
+                            />
+                        </div>
                     </div>
                 </div>
-            </div>
+            </section>
+
+
+
+            <section className="pb-8" style={{ backgroundColor: 'rgba(194, 174, 114, .25)' }}>
+                <div className="mx-auto max-w-screen-xl px-4 py-8 sm:px-6 sm:py-12 lg:px-8 lg:py-16">
+                    <div className="grid grid-cols-1 gap-8 lg:grid-cols-2 lg:gap-16">
+                        <div className="relative h-64 overflow-hidden -lg sm:h-80 lg:order-last lg:h-full">
+                            <Image
+                                alt=""
+                                src="https://images.unsplash.com/photo-1527529482837-4698179dc6ce?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80"
+                                fill
+                                style={{ objectFit: 'cover' }}
+                            />
+                        </div>
+
+                        <div className="lg:py-24">
+                            <h2 className="text-3xl font-bold sm:text-4xl">Destinations</h2>
+
+                            <p className="mt-4 text-gray-600">
+                                Embark on an unparalleled journey of comfort and adventure in Kenya and Tanzania.
+                            </p>
+
+                            <Link
+                                href="#"
+                                className="mt-8 inline-block px-12 py-3 text-sm font-medium text-white transition hover:bg-indigo-700 focus:outline-none focus:ring focus:ring-yellow-400" style={{ backgroundColor: 'rgba(116, 46, 19,1)' }}
+                            >
+                                Learn More
+                            </Link>
+                        </div>
+                    </div>
+                </div>
+            </section>
 
             {/* <div className="container px-4 mx-auto text-center pb-24 md:pb-32" >
                 <h2 className="font-heading mb-5 text-6xl tracking-tighter">
@@ -130,9 +158,9 @@ const HomePage = async () => {
 
                 </div>
             </div> */}
-            <div className="w-full bg-gray-100">
+            <div className="w-full">
                 <div className="container mx-auto max-w-screen-xl p-12 md:p-24 flex justify-start items-center">
-                    <div className="">
+                    <div className="text-center">
                         <h2 className="text-xl lg:text-2xl mb-8 tracking-widest uppercase">
                             {page.acf.section_5.mission_and_values.title}
                         </h2>
@@ -146,19 +174,28 @@ const HomePage = async () => {
                     </div>
                 </div>
             </div>
-            <div className="py-24 lg:py-28 overflow-hidden" style={{ background: `url(${page.acf.section_7.image})`, backgroundRepeat: "no-repeat", backgroundSize: "cover" }}>
-                <div className="container px-4 mx-auto">
-                    <div className="max-w-xl mx-auto text-center">
-                        <h2 className="font-heading mb-6 text-6xl text-white tracking-tighter capitalize">Book your adventure today!</h2>
-                        <p className="mb-8 text-xl text-gray-200 tracking-tight">Customize your experience with our tailored itineraries and enjoy the expertise of our professional guides.</p>
-                        <div className="inline-block px-5 py-4 text-gray-700 font-semibold tracking-tight bg-white hover:bg-gray-100 rounded focus:ring-4 focus:ring-gray-200 transition duration-200">
-                            <Link href={'/contact'}>
+            <section
+                className="overflow-hidden bg-[url(https://images.unsplash.com/photo-1489987707025-afc232f7ea0f?q=80&w=2670&auto=format&fit=crop)] bg-cover bg-top bg-no-repeat max-w-screen-xl mx-auto mb-24"
+            >
+                <div className="bg-black/50 p-8 md:p-12 lg:px-16 lg:py-24">
+                    <div className="text-center ltr:sm:text-left rtl:sm:text-right">
+                        <h2 className="text-2xl font-bold text-white sm:text-3xl md:text-5xl">Book your adventure today!</h2>
+
+                        <p className="hidden max-w-lg mx-auto text-white/90 md:mt-6 md:block md:text-lg md:leading-relaxed">
+                            Customize your experience with our tailored itineraries and enjoy the expertise of our professional guides.
+                        </p>
+
+                        <div className="mt-4 sm:mt-8">
+                            <Link href={'/contact'}
+                                className="inline-block -full bg-indigo-600 px-12 py-3 text-sm font-medium text-white transition hover:bg-indigo-700 focus:outline-none focus:ring focus:ring-yellow-400"
+                                style={{ backgroundColor: 'rgba(194, 174, 114, 1)' }}
+                            >
                                 {page.acf.section_7.title}
                             </Link>
                         </div>
                     </div>
                 </div>
-            </div>
+            </section>
         </main>
     )
 }

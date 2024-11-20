@@ -6,6 +6,20 @@ const Experiences = async () => {
     const experiences = await getExperiences()
     return (
         <div className="container mx-auto py-10">
+            <div className=" pb-12 bg-white">
+                <div className="mx-auto">
+                    <div className="w-full">
+                        <div className={`w-full h-[calc(70vh)] relative overflow-hidden`}>
+                            {/* <Image
+                                src={page.acf.images[0].url}
+                                alt="starlyn thrilling adventures"
+                                fill
+                                style={{ objectFit: "cover" }}
+                            /> */}
+                        </div>
+                    </div>
+                </div>
+            </div>
             <h2 className="font-bold tracking-tighter text-2xl px-8 mb-10">Experiences</h2>
             <div className="flex flex-wrap px-4">
                 {experiences.map((experience: any, i: any) => (

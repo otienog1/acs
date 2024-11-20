@@ -10,6 +10,14 @@
 
 /* Add any other global styles here */
 
+body {
+  font-family: "google sans" !important;
+}
+
+.font-display {
+  font-family: "google sans";
+}
+
 .navbar {
   background-color: rgba(27, 118, 50, 1);
 }

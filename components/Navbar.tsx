@@ -10,8 +10,8 @@ const Navbar = () => {
     const [open, setOpen] = useState(false)
 
     return (
-        <nav className="bg-white border-gray-200 dark:bg-gray-900 pb-4">
-            <div className="flex items-center justify-center mx-auto pt-6 pb-8">
+        <nav className="bg-white border-gray-200 dark:bg-gray-900 py-8" style={{ borderBottom: '1px solid red', borderBottomColor: 'rgba(27, 118, 50, .1)' }}>
+            <div className="flex items-center justify-center mx-auto pb-12">
                 <Link href={'/'} className="flex items-center space-x-3 rtl:space-x-reverse">
                     <Image
                         src={Logo}
