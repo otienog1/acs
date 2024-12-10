@@ -5,7 +5,7 @@ import Logo from '../public/_Logo.svg'
 const Footer = () => {
     return (
         <footer className="bg-gray-100">
-            <div className="mx-auto max-w-5xl px-4 py-16 sm:px-6 lg:px-8">
+            <div className="mx-auto max-w-5xl px-4 pt-16 sm:px-6 lg:px-8">
                 <div className="flex justify-center text-teal-600">
                     <Image
                         src={Logo}
@@ -15,9 +15,8 @@ const Footer = () => {
                     />
                 </div>
 
-                <p className="mx-auto mt-6 max-w-md text-center leading-relaxed text-gray-500">
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Incidunt consequuntur amet culpa cum
-                    itaque neque.
+                <p className="mx-auto mt-12 max-w-lg text-center leading-relaxed text-gray-500">
+                    African Citril Safaris offers personalized East African tours with a focus on sustainability and exceptional service, including custom itineraries and travel support.
                 </p>
 
                 <ul className="mt-12 flex flex-wrap justify-center gap-6 md:gap-8 lg:gap-12">

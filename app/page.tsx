@@ -19,12 +19,7 @@ const HomePage = async () => {
                     current={0}
                     RAF={0}
                 />
-                <div className="absolute right-0 top-1/2 transform -translate-y-1/2"> {/* New div for absolute positioning */}
-                    {/* Your first div content here */}
-                </div>
-                <div className="absolute right-0 top-1/2 transform -translate-y-1/2"> {/* New div for absolute positioning */}
-                    {/* Your second div content here */}
-                </div>
+
             </div>
 
             <section className="py-12">
@@ -37,7 +32,7 @@ const HomePage = async () => {
                                 </h2>
 
                                 <div
-                                    className="hidden text-white/90 sm:mt-4 sm:block [&>p]:mb-4"
+                                    className="text-white/90 mt-4 sm:block [&>p]:mb-4"
                                     dangerouslySetInnerHTML={
                                         { __html: page.acf.section_3.our_tours.content }
                                     }>
@@ -58,7 +53,7 @@ const HomePage = async () => {
                             <div className="h-40 w-full sm:h-56 md:h-full relative">
                                 <Image
                                     alt=""
-                                    src="https://images.unsplash.com/photo-1621274790572-7c32596bc67f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=654&q=80"
+                                    src={page.acf.section_3.image}
                                     className="h-40 w-full object-cover sm:h-56 md:h-full"
                                     fill
                                     style={{ objectFit: 'cover' }}
@@ -68,7 +63,7 @@ const HomePage = async () => {
                             <div className="h-40 w-full sm:h-56 md:h-full relative">
                                 <Image
                                     alt=""
-                                    src="https://images.unsplash.com/photo-1567168544813-cc03465b4fa8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
+                                    src={page.acf.section_3.tours[0].image}
                                     fill
                                     style={{ objectFit: 'cover' }}
                                 />
@@ -92,17 +87,17 @@ const HomePage = async () => {
                             </p>
 
                             <Link
-                                href="#"
+                                href="/experience"
                                 className="mt-8 inline-block  px-12 py-3 text-sm font-medium text-white transition hover:bg-indigo-700 focus:outline-none focus:ring focus:ring-yellow-400" style={{ backgroundColor: 'rgba(116, 46, 19,1)' }}
                             >
                                 Learn More
                             </Link>
                         </div>
 
-                        <div className="relative h-64 overflow-hidden -lg sm:h-80 lg:h-full">
+                        <div className="relative h-64 overflow-hidden sm:h-80 lg:h-full">
                             <Image
                                 alt=""
-                                src="https://images.unsplash.com/photo-1527529482837-4698179dc6ce?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80"
+                                src={page.acf.section_3.tours[1].image}
                                 fill
                                 style={{ objectFit: 'cover' }}
                             />
@@ -111,15 +106,13 @@ const HomePage = async () => {
                 </div>
             </section>
 
-
-
             <section className="pb-8" style={{ backgroundColor: 'rgba(194, 174, 114, .25)' }}>
                 <div className="mx-auto max-w-screen-xl px-4 py-8 sm:px-6 sm:py-12 lg:px-8 lg:py-16">
                     <div className="grid grid-cols-1 gap-8 lg:grid-cols-2 lg:gap-16">
-                        <div className="relative h-64 overflow-hidden -lg sm:h-80 lg:order-last lg:h-full">
+                        <div className="relative h-64 overflow-hidden sm:h-80 lg:order-last lg:h-full">
                             <Image
                                 alt=""
-                                src="https://images.unsplash.com/photo-1527529482837-4698179dc6ce?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80"
+                                src={page.acf.section_3.tours[2].image}
                                 fill
                                 style={{ objectFit: 'cover' }}
                             />
@@ -133,7 +126,7 @@ const HomePage = async () => {
                             </p>
 
                             <Link
-                                href="#"
+                                href="/destinations"
                                 className="mt-8 inline-block px-12 py-3 text-sm font-medium text-white transition hover:bg-indigo-700 focus:outline-none focus:ring focus:ring-yellow-400" style={{ backgroundColor: 'rgba(116, 46, 19,1)' }}
                             >
                                 Learn More
@@ -175,13 +168,12 @@ const HomePage = async () => {
                 </div>
             </div>
             <section
-                className="overflow-hidden bg-[url(https://images.unsplash.com/photo-1489987707025-afc232f7ea0f?q=80&w=2670&auto=format&fit=crop)] bg-cover bg-top bg-no-repeat max-w-screen-xl mx-auto mb-24"
+                className="overflow-hidden bg-[url(https://api.starlynthrillingadventures.com/wp-content/uploads/2024/12/X3A2809-scaled-e1733389895988.webp)] bg-cover bg-center bg-no-repeat max-w-screen-xl mx-auto mb-24"
             >
                 <div className="bg-black/50 p-8 md:p-12 lg:px-16 lg:py-24">
                     <div className="text-center ltr:sm:text-left rtl:sm:text-right">
                         <h2 className="text-2xl font-bold text-white sm:text-3xl md:text-5xl">Book your adventure today!</h2>
-
-                        <p className="hidden max-w-lg mx-auto text-white/90 md:mt-6 md:block md:text-lg md:leading-relaxed">
+                        <p className="max-w-lg mx-auto text-white/90 md:mt-6 md:block md:text-lg md:leading-relaxed">
                             Customize your experience with our tailored itineraries and enjoy the expertise of our professional guides.
                         </p>
 

@@ -7,17 +7,17 @@ const Destinations = async () => {
     const page = await getPage(12)
 
     return (
-        <div className="container max-w-screen-xl mx-auto py-12">
-            <div className=" pb-12 bg-white">
+        <div className="container mx-auto">
+            <div className=" mb-12 bg-white">
                 <div className="mx-auto">
                     <div className="w-full">
-                        <div className={`w-full h-[calc(70vh)] relative overflow-hidden`}>
-                            {/* <Image
-                                src={page.acf.images[0].url}
-                                alt="starlyn thrilling adventures"
+                        <div className={`w-full h-[calc(100vh)] relative overflow-hidden`}>
+                            <Image
+                                src={page.acf.hero_image}
+                                alt="African Citril Adventure"
                                 fill
                                 style={{ objectFit: "cover" }}
-                            /> */}
+                            />
                         </div>
                     </div>
                 </div>

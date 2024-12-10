@@ -1,21 +1,22 @@
 import Link from "next/link"
 import Image from "next/image"
-import { getExperiences } from "@/components/page"
+import { getExperiences, getPage } from "@/components/page"
 
 const Experiences = async () => {
     const experiences = await getExperiences()
+    const page = await getPage(14)
     return (
-        <div className="container mx-auto py-10">
+        <div className="container mx-auto pb-12s">
             <div className=" pb-12 bg-white">
                 <div className="mx-auto">
                     <div className="w-full">
-                        <div className={`w-full h-[calc(70vh)] relative overflow-hidden`}>
-                            {/* <Image
-                                src={page.acf.images[0].url}
+                        <div className={`w-full h-[calc(100vh)] relative overflow-hidden`}>
+                            <Image
+                                src={page.acf.hero_image}
                                 alt="starlyn thrilling adventures"
                                 fill
                                 style={{ objectFit: "cover" }}
-                            /> */}
+                            />
                         </div>
                     </div>
                 </div>

@@ -9,7 +9,7 @@ const AboutPage = async () => {
             <div className=" pb-12 bg-white">
                 <div className="mx-auto">
                     <div className="w-full">
-                        <div className={`w-full h-[calc(70vh)] relative overflow-hidden`}>
+                        <div className={`w-full h-[calc(100vh)] relative overflow-hidden`}>
                             <Image
                                 src={page.acf.images[0].url}
                                 alt="starlyn thrilling adventures"

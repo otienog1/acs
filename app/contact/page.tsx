@@ -37,12 +37,12 @@ const Contact = () => {
                                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="1" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path>
                             </svg> MON-FRI, 9-5 | SAT, 9-1 | SUN, CLOSED
                         </div>
-                        <a href="https://www.google.com/maps/place/2321 Wildwood Street, OH, 44503" target="_blank" className="flex items-center my-2">
+                        {/* <a href="https://www.google.com/maps/place/2321 Wildwood Street, OH, 44503" target="_blank" className="flex items-center my-2">
                             <svg className="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="1" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path>
                                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="1" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path>
                             </svg> 2321 Wildwood Street, OH, 44503
-                        </a>
+                        </a> */}
                     </div>
                     <div>
                         <Cf7FormWrapper siteUrl={''} formId={213} url={'https://api.starlynthrillingadventures.com/wp-json/contact-form-7/v1/contact-forms/213/feedback/'}>
