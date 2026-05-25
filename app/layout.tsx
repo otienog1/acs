@@ -4,6 +4,7 @@ import { Source_Sans_3 } from 'next/font/google'
 import localFont from 'next/font/local'
 
 import Navbar from '@/components/Navbar'
+import NavSpacer from '@/components/NavSpacer'
 import Footer from '@/components/Footer'
 
 const poppins = Source_Sans_3({
@@ -62,6 +63,7 @@ export default function RootLayout({
             <body className={productsans.className}>
                 <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
                     <Navbar />
+                    <NavSpacer />
                     {children}
                     <Footer />
                 </ThemeProvider>

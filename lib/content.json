@@ -3,28 +3,28 @@
     "section_1": {
       "slider": [
         {
-          "image": "/images/placeholder.jpg",
+          "image": "https://images.unsplash.com/photo-1516426122078-c23e76319801?auto=format&fit=crop&w=1920&q=80",
           "author": "Kenya"
         },
         {
-          "image": "/images/placeholder.jpg",
+          "image": "https://images.unsplash.com/photo-1547471080-7cc2caa01a7e?auto=format&fit=crop&w=1920&q=80",
           "author": "Tanzania"
         },
         {
-          "image": "/images/placeholder.jpg",
+          "image": "https://images.unsplash.com/photo-1551909175-8a68da93d5f9?auto=format&fit=crop&w=1920&q=80",
           "author": "East Africa"
         }
       ]
     },
     "section_3": {
       "our_tours": {
-        "content": "<p>African Citril Safaris is a premier safari company specializing in bespoke wildlife experiences across East Africa. Our expert guides bring decades of field experience, ensuring every journey is safe, immersive, and unforgettable.</p><p>We craft each itinerary around your interests — from the Great Migration in the Masai Mara to the pristine wilderness of the Serengeti — combining comfort with authentic adventure.</p>"
+        "content": "<p>African Citril Safaris is a premier safari company specialising in bespoke wildlife experiences across East Africa. Our expert guides bring decades of field experience, ensuring every journey is safe, immersive, and unforgettable.</p><p>We craft each itinerary around your interests — from the Great Migration in the Masai Mara to the pristine wilderness of the Serengeti — combining comfort with authentic adventure.</p>"
       },
-      "image": "/images/placeholder.jpg",
+      "image": "https://images.unsplash.com/photo-1564760055775-d63b17a55c44?auto=format&fit=crop&w=1200&q=80",
       "tours": [
-        { "image": "/images/placeholder.jpg" },
-        { "image": "/images/placeholder.jpg" },
-        { "image": "/images/placeholder.jpg" }
+        { "image": "https://images.unsplash.com/photo-1504942579992-ba27b4ea5877?auto=format&fit=crop&w=800&q=80" },
+        { "image": "https://images.unsplash.com/photo-1528360983277-13d401cdc186?auto=format&fit=crop&w=800&q=80" },
+        { "image": "https://images.unsplash.com/photo-1516026672447-2b2d76e74a3e?auto=format&fit=crop&w=800&q=80" }
       ]
     },
     "section_4": {
@@ -43,14 +43,14 @@
   },
   "about": {
     "images": [
-      { "url": "/images/placeholder.jpg" }
+      { "url": "https://images.unsplash.com/photo-1516426122078-c23e76319801?auto=format&fit=crop&w=1920&q=80" }
     ],
     "title": "About African Citril Safaris",
     "about_us": "<p>African Citril Safaris was founded with a singular passion: to share the magic of East Africa's wilderness with the world. Based in Nairobi, Kenya, we are a team of dedicated conservationists, naturalists, and hospitality professionals who believe that travel can be a force for good.</p><p>We work with a carefully selected network of lodges, camps, and guides who share our values of sustainability, authenticity, and excellence.</p>",
     "our_story": {
       "title": "Our Story",
       "content": "<p>Our journey began over a decade ago when our founder, a lifelong wildlife enthusiast, set out to create a safari company that went beyond the ordinary. Frustrated by one-size-fits-all itineraries, he built African Citril Safaris on the belief that every traveller deserves a personalised experience rooted in genuine connection with nature.</p><p>Today, we have guided hundreds of guests from around the world through some of the most spectacular landscapes on earth, earning a reputation for excellence, integrity, and deep knowledge of the bush.</p>",
-      "url": "/images/placeholder.jpg"
+      "url": "https://images.unsplash.com/photo-1547471080-7cc2caa01a7e?auto=format&fit=crop&w=1200&q=80"
     },
     "our_values": {
       "title": "Our Values",
@@ -66,27 +66,27 @@
     }
   },
   "destinations": {
-    "hero_image": "/images/placeholder.jpg",
+    "hero_image": "https://images.unsplash.com/photo-1528360983277-13d401cdc186?auto=format&fit=crop&w=1920&q=80",
     "title": "Our Destinations",
     "destinations": [
       {
         "destination": {
           "name": "Kenya",
-          "image": "/images/placeholder.jpg",
+          "image": "https://images.unsplash.com/photo-1551009175-8a68da93d5f9?auto=format&fit=crop&w=1200&q=80",
           "content": "<p>Kenya is the birthplace of safari. From the iconic Masai Mara — home of the Great Migration — to the dramatic landscapes of Amboseli beneath Mount Kilimanjaro, Kenya offers an unmatched diversity of wildlife and scenery. Our Kenya itineraries take you beyond the well-trodden paths to hidden conservancies where you may have the bush entirely to yourself.</p>"
         }
       },
       {
         "destination": {
           "name": "Tanzania",
-          "image": "/images/placeholder.jpg",
+          "image": "https://images.unsplash.com/photo-1516026672447-2b2d76e74a3e?auto=format&fit=crop&w=1200&q=80",
           "content": "<p>Tanzania is home to the Serengeti, Ngorongoro Crater, and the spice island of Zanzibar — a combination of wildlife spectacle and cultural richness that is hard to match anywhere in the world. Whether you are watching lion cubs play on the crater floor or tracing the wildebeest migration across the endless plains, Tanzania never fails to leave a lasting impression.</p>"
         }
       }
     ]
   },
   "experienceIndex": {
-    "hero_image": "/images/placeholder.jpg"
+    "hero_image": "https://images.unsplash.com/photo-1504942579992-ba27b4ea5877?auto=format&fit=crop&w=1920&q=80"
   },
   "experiences": [
     {
@@ -95,7 +95,7 @@
         "title": "Best of Kenya Safari",
         "destination": "Kenya",
         "days": "8 Days / 7 Nights",
-        "image": "/images/placeholder.jpg",
+        "image": "https://images.unsplash.com/photo-1564760055775-d63b17a55c44?auto=format&fit=crop&w=1200&q=80",
         "description": "<p>This flagship Kenya itinerary takes you through the very best the country has to offer. Starting in Nairobi, you will journey north to the Samburu National Reserve before heading south to the world-famous Masai Mara, finishing at the great Rift Valley lakes. Expect extraordinary game viewing at every turn — big cats, elephants, and the endemic species that make Samburu unique.</p>",
         "itinerary": [
           {
@@ -139,7 +139,7 @@
         "title": "Big Five Safari",
         "destination": "Kenya & Tanzania",
         "days": "10 Days / 9 Nights",
-        "image": "/images/placeholder.jpg",
+        "image": "https://images.unsplash.com/photo-1516426122078-c23e76319801?auto=format&fit=crop&w=1200&q=80",
         "description": "<p>The ultimate bucket-list safari. This carefully designed itinerary gives you the best possible chance of encountering all five of Africa's most iconic animals — lion, leopard, elephant, buffalo, and rhino — across two of East Africa's finest ecosystems. From the wide-open plains of the Serengeti to the rhino sanctuary at Lake Nakuru, every day brings a new possibility.</p>",
         "itinerary": [
           {
@@ -191,7 +191,7 @@
         "title": "Highlights of Kenya",
         "destination": "Kenya",
         "days": "6 Days / 5 Nights",
-        "image": "/images/placeholder.jpg",
+        "image": "https://images.unsplash.com/photo-1547471080-7cc2caa01a7e?auto=format&fit=crop&w=1200&q=80",
         "description": "<p>A perfectly paced introduction to Kenya for first-time safari-goers. In six days you will experience the diversity of Kenyan wildlife across three distinct ecosystems — the dry semi-arid north at Samburu, the Rift Valley lakes, and the legendary Masai Mara. Our experienced guides ensure you see and understand as much as possible within a compact timeframe.</p>",
         "itinerary": [
           {
@@ -227,7 +227,7 @@
         "title": "Best of Tanzania",
         "destination": "Tanzania",
         "days": "9 Days / 8 Nights",
-        "image": "/images/placeholder.jpg",
+        "image": "https://images.unsplash.com/photo-1528360983277-13d401cdc186?auto=format&fit=crop&w=1200&q=80",
         "description": "<p>Tanzania is home to some of the world's most spectacular wildlife areas, and this itinerary takes you to all of them. From the vast grasslands of the Serengeti to the wildlife-packed Ngorongoro Crater and the remote Tarangire — famous for its enormous elephant herds and ancient baobab trees — this is Tanzania at its finest, ending with a few days of relaxation on the idyllic island of Zanzibar.</p>",
         "itinerary": [
           {

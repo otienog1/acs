@@ -3,79 +3,92 @@
 import { useState, useEffect, useCallback } from "react"
 
 const ContactForm = (props: any) => {
-    let { handler, isLoading, isSent, hasError, message } = props
+    const { handler, isLoading, isSent, hasError } = props
+    const [formState, setFormState] = useState<Record<string, string>>({})
 
-    const [formState, setFormState] = useState({})
-
-    const handleFieldChange = (field: any, e: any) => {
-        setFormState({
-            ...formState,
-            [field]: e.target.value,
-        })
+    const handleFieldChange = (field: string, e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
+        setFormState(prev => ({ ...prev, [field]: e.target.value }))
     }
 
     const initFormState = useCallback(() => {
-        setFormState({
-            ...formState,
-            ['your-subject']: "Contact Form",
-        })
-    }, [formState])
+        setFormState(prev => ({ ...prev, 'your-subject': "Contact Form" }))
+    }, [])
 
-    const handleFormSubmit = (e: any) => {
-        e.preventDefault();
+    useEffect(() => { initFormState() }, [])
+
+    const handleFormSubmit = (e: React.FormEvent) => {
+        e.preventDefault()
         handler(e, formState)
     }
 
-    useEffect(() => {
-        initFormState()
-    }, [])
-
-
     return (
-        <div>
-            <form onSubmit={e => handleFormSubmit(e)} encType="multipart/form-data">
-                <div>
-                    <label className="block text-base tracking-tight text-gray-600">Name</label>
-                    <input
-                        type="text"
-                        placeholder="Name"
-                        required
-                        onChange={e => handleFieldChange('your-name', e)}
-                        className="mt-2 w-full border-none text-sm p-4 bg-gray-100 text-gray-700"
-                    />
-                </div>
-                <div className="mt-6">
-                    <label className="block text-base tracking-tight text-gray-600">Email address</label>
-                    <input
-                        type="email"
-                        placeholder="your@email.com"
-                        required
-                        onChange={e => handleFieldChange('your-email', e)}
-                        className="mt-2 w-full border-none text-sm p-4 bg-gray-100 text-gray-700"
-                    />
-                </div>
-                <div className="mt-6">
-                    <label className="block text-base tracking-tight text-gray-600">Message</label>
-                    <textarea
-                        placeholder="Your message"
-                        required
-                        onChange={e => handleFieldChange('your-message', e)}
-                        className="mt-2 w-full border-none text-sm p-4 bg-gray-100 text-gray-700">
-                    </textarea>
-                </div>
-                <div className="flex mt-6 content-center align-middle">
-                    <button className="inline-block bg-yellow-800 text-white uppercase text-sm tracking-widest font-heading px-8 py-4"
-                    >
-                        Send message
-                    </button>
-                    <div className=" flex ml-4 text-sm content-center py-4">
-                        {isLoading ? <p>Sending</p> : ""}
-                        {isSent ? <p>Sent</p> : ""}
-                        {hasError || ""}
-                    </div>
-                </div>
-            </form >
-        </div >
+        <form onSubmit={handleFormSubmit} encType="multipart/form-data" className="space-y-6">
+
+            <div>
+                <label htmlFor="name" className="block text-[10px] tracking-[0.25em] uppercase text-[#742E13] font-medium mb-3">
+                    Full Name <span className="text-[#C2AE72]">*</span>
+                </label>
+                <input
+                    id="name"
+                    type="text"
+                    placeholder="Your full name"
+                    required
+                    onChange={e => handleFieldChange('your-name', e)}
+                    className="w-full bg-[#F2EDE4] border-0 border-b-2 border-[#E8E0D4] focus:border-[#742E13] text-[#1a1a1a] text-sm px-4 py-4 outline-none transition-colors duration-300 placeholder:text-[#9a9a9a]"
+                />
+            </div>
+
+            <div>
+                <label htmlFor="email" className="block text-[10px] tracking-[0.25em] uppercase text-[#742E13] font-medium mb-3">
+                    Email Address <span className="text-[#C2AE72]">*</span>
+                </label>
+                <input
+                    id="email"
+                    type="email"
+                    placeholder="your@email.com"
+                    required
+                    onChange={e => handleFieldChange('your-email', e)}
+                    className="w-full bg-[#F2EDE4] border-0 border-b-2 border-[#E8E0D4] focus:border-[#742E13] text-[#1a1a1a] text-sm px-4 py-4 outline-none transition-colors duration-300 placeholder:text-[#9a9a9a]"
+                />
+            </div>
+
+            <div>
+                <label htmlFor="message" className="block text-[10px] tracking-[0.25em] uppercase text-[#742E13] font-medium mb-3">
+                    Message <span className="text-[#C2AE72]">*</span>
+                </label>
+                <textarea
+                    id="message"
+                    rows={6}
+                    placeholder="Tell us about your ideal safari — destinations, dates, group size, and any special interests."
+                    required
+                    onChange={e => handleFieldChange('your-message', e)}
+                    className="w-full bg-[#F2EDE4] border-0 border-b-2 border-[#E8E0D4] focus:border-[#742E13] text-[#1a1a1a] text-sm px-4 py-4 outline-none transition-colors duration-300 placeholder:text-[#9a9a9a] resize-none"
+                />
+            </div>
+
+            <div className="flex items-center gap-6 pt-2">
+                <button
+                    type="submit"
+                    disabled={isLoading}
+                    className="inline-block bg-[#742E13] text-white text-[10px] tracking-[0.25em] uppercase px-10 py-4 hover:bg-[#5a2310] disabled:opacity-50 disabled:cursor-not-allowed transition-colors duration-300"
+                >
+                    {isLoading ? "Sending…" : "Send Message"}
+                </button>
+
+                {isSent && (
+                    <span className="text-[#1B7632] text-sm font-medium flex items-center gap-2">
+                        <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                            <path strokeLinecap="round" strokeLinejoin="round" d="M5 13l4 4L19 7" />
+                        </svg>
+                        Message sent — we&apos;ll be in touch soon.
+                    </span>
+                )}
+                {hasError && (
+                    <span className="text-red-600 text-sm">{hasError}</span>
+                )}
+            </div>
+
+        </form>
     )
 }
 
