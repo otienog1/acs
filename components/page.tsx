@@ -1,5 +1,5 @@
 async function getPage(id: any) {
-    let res = await fetch(`https://api.starlynthrillingadventures.com/wp-json/wp/v2/pages/${id}?_fields=acf&acf_format=standard`)
+    let res = await fetch(`https://api.africancitrilsafaris.com/wp-json/wp/v2/pages/${id}?_fields=acf&acf_format=standard`)
 
     if (!res.ok) {
         throw new Error('Failed to fetch data');
@@ -10,7 +10,7 @@ async function getPage(id: any) {
 }
 
 async function getExperience(id: any) {
-    let res = await fetch(`https://api.starlynthrillingadventures.com/wp-json/wp/v2/experience/${id}?_fields=acf&acf_format=standard`)
+    let res = await fetch(`https://api.africancitrilsafaris.com/wp-json/wp/v2/experience/${id}?_fields=acf&acf_format=standard`)
 
     if (!res.ok) {
         throw new Error('Failed to fetch data');
@@ -20,7 +20,7 @@ async function getExperience(id: any) {
 }
 
 async function getExperiences() {
-    let res = await fetch(`https://api.starlynthrillingadventures.com/wp-json/wp/v2/experience?_fields=acf&acf_format=standard`)
+    let res = await fetch(`https://api.africancitrilsafaris.com/wp-json/wp/v2/experience?_fields=acf&acf_format=standard`)
 
     if (!res.ok) {
         throw new Error('Failed to fetch data');
