@@ -1,32 +1,31 @@
-async function getPage(id: any) {
-    let res = await fetch(`https://api.africancitrilsafaris.com/wp-json/wp/v2/pages/${id}?_fields=acf&acf_format=standard`)
+import content from '@/lib/content.json'
 
-    if (!res.ok) {
-        throw new Error('Failed to fetch data');
+async function getPage(id: number) {
+    const map: Record<number, any> = {
+        5:  { acf: content.home },
+        8:  { acf: content.about },
+        12: { acf: content.destinations },
+        14: { acf: content.experienceIndex },
     }
-    const data = await res.json()
-
-    return data
+    const page = map[id]
+    if (!page) throw new Error(`No content found for page id ${id}`)
+    return page
 }
 
-async function getExperience(id: any) {
-    let res = await fetch(`https://api.africancitrilsafaris.com/wp-json/wp/v2/experience/${id}?_fields=acf&acf_format=standard`)
-
-    if (!res.ok) {
-        throw new Error('Failed to fetch data');
+async function getExperience(id: number) {
+    const map: Record<number, any> = {
+        165: content.experiences[0],
+        166: content.experiences[1],
+        167: content.experiences[2],
+        168: content.experiences[3],
     }
-
-    return res.json()
+    const experience = map[id]
+    if (!experience) throw new Error(`No content found for experience id ${id}`)
+    return experience
 }
 
 async function getExperiences() {
-    let res = await fetch(`https://api.africancitrilsafaris.com/wp-json/wp/v2/experience?_fields=acf&acf_format=standard`)
-
-    if (!res.ok) {
-        throw new Error('Failed to fetch data');
-    }
-
-    return res.json()
+    return content.experiences
 }
 
 export { getPage, getExperience, getExperiences }

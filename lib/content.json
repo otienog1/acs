@@ -1,0 +1,273 @@
+{
+  "home": {
+    "section_1": {
+      "slider": [
+        {
+          "image": "/images/placeholder.jpg",
+          "author": "Kenya"
+        },
+        {
+          "image": "/images/placeholder.jpg",
+          "author": "Tanzania"
+        },
+        {
+          "image": "/images/placeholder.jpg",
+          "author": "East Africa"
+        }
+      ]
+    },
+    "section_3": {
+      "our_tours": {
+        "content": "<p>African Citril Safaris is a premier safari company specializing in bespoke wildlife experiences across East Africa. Our expert guides bring decades of field experience, ensuring every journey is safe, immersive, and unforgettable.</p><p>We craft each itinerary around your interests — from the Great Migration in the Masai Mara to the pristine wilderness of the Serengeti — combining comfort with authentic adventure.</p>"
+      },
+      "image": "/images/placeholder.jpg",
+      "tours": [
+        { "image": "/images/placeholder.jpg" },
+        { "image": "/images/placeholder.jpg" },
+        { "image": "/images/placeholder.jpg" }
+      ]
+    },
+    "section_4": {
+      "title": "Additional Services",
+      "additional_services": "<p>We offer airport transfers, accommodation bookings, and visa assistance to make your journey seamless from start to finish.</p>"
+    },
+    "section_5": {
+      "mission_and_values": {
+        "title": "Our Mission & Values",
+        "content": "<p>We are committed to delivering extraordinary safari experiences while supporting conservation efforts and local communities across East Africa. Every trip you take with us contributes directly to wildlife protection and the livelihoods of the people who share these landscapes with the animals we treasure.</p>"
+      }
+    },
+    "section_7": {
+      "title": "Get in Touch"
+    }
+  },
+  "about": {
+    "images": [
+      { "url": "/images/placeholder.jpg" }
+    ],
+    "title": "About African Citril Safaris",
+    "about_us": "<p>African Citril Safaris was founded with a singular passion: to share the magic of East Africa's wilderness with the world. Based in Nairobi, Kenya, we are a team of dedicated conservationists, naturalists, and hospitality professionals who believe that travel can be a force for good.</p><p>We work with a carefully selected network of lodges, camps, and guides who share our values of sustainability, authenticity, and excellence.</p>",
+    "our_story": {
+      "title": "Our Story",
+      "content": "<p>Our journey began over a decade ago when our founder, a lifelong wildlife enthusiast, set out to create a safari company that went beyond the ordinary. Frustrated by one-size-fits-all itineraries, he built African Citril Safaris on the belief that every traveller deserves a personalised experience rooted in genuine connection with nature.</p><p>Today, we have guided hundreds of guests from around the world through some of the most spectacular landscapes on earth, earning a reputation for excellence, integrity, and deep knowledge of the bush.</p>",
+      "url": "/images/placeholder.jpg"
+    },
+    "our_values": {
+      "title": "Our Values",
+      "content": "<p><strong>Conservation First</strong> — A portion of every booking supports wildlife conservation projects and anti-poaching initiatives in Kenya and Tanzania.</p><p><strong>Community Partnership</strong> — We work directly with local Maasai and Samburu communities, ensuring tourism benefits the people who are the true custodians of these lands.</p><p><strong>Authenticity</strong> — We favour small groups, off-the-beaten-path routes, and genuine cultural exchanges over mass-market tourism.</p>"
+    },
+    "our_mission": {
+      "title": "Our Mission",
+      "content": "<p>To curate transformative safari experiences that connect people with the natural world, foster a lasting commitment to conservation, and create meaningful economic opportunities for East African communities.</p>"
+    },
+    "our_services": {
+      "title": "Our Services",
+      "content": "<p><strong>Bespoke Safaris</strong> — Fully tailored itineraries built around your schedule, interests, and budget.</p><p><strong>Group Departures</strong> — Scheduled small-group safaris for solo travellers and couples looking to share the experience.</p><p><strong>Honeymoon Packages</strong> — Romantic itineraries combining bush camps with coastal retreats on the Kenyan or Zanzibar coast.</p><p><strong>Photography Safaris</strong> — Specialist trips designed for wildlife photographers, with expert guides who know the light and the animals.</p><p><strong>Family Safaris</strong> — Child-friendly itineraries with experienced guides trained to make the bush accessible and exciting for younger travellers.</p>"
+    }
+  },
+  "destinations": {
+    "hero_image": "/images/placeholder.jpg",
+    "title": "Our Destinations",
+    "destinations": [
+      {
+        "destination": {
+          "name": "Kenya",
+          "image": "/images/placeholder.jpg",
+          "content": "<p>Kenya is the birthplace of safari. From the iconic Masai Mara — home of the Great Migration — to the dramatic landscapes of Amboseli beneath Mount Kilimanjaro, Kenya offers an unmatched diversity of wildlife and scenery. Our Kenya itineraries take you beyond the well-trodden paths to hidden conservancies where you may have the bush entirely to yourself.</p>"
+        }
+      },
+      {
+        "destination": {
+          "name": "Tanzania",
+          "image": "/images/placeholder.jpg",
+          "content": "<p>Tanzania is home to the Serengeti, Ngorongoro Crater, and the spice island of Zanzibar — a combination of wildlife spectacle and cultural richness that is hard to match anywhere in the world. Whether you are watching lion cubs play on the crater floor or tracing the wildebeest migration across the endless plains, Tanzania never fails to leave a lasting impression.</p>"
+        }
+      }
+    ]
+  },
+  "experienceIndex": {
+    "hero_image": "/images/placeholder.jpg"
+  },
+  "experiences": [
+    {
+      "acf": {
+        "slug": "best-of-kenya-safari",
+        "title": "Best of Kenya Safari",
+        "destination": "Kenya",
+        "days": "8 Days / 7 Nights",
+        "image": "/images/placeholder.jpg",
+        "description": "<p>This flagship Kenya itinerary takes you through the very best the country has to offer. Starting in Nairobi, you will journey north to the Samburu National Reserve before heading south to the world-famous Masai Mara, finishing at the great Rift Valley lakes. Expect extraordinary game viewing at every turn — big cats, elephants, and the endemic species that make Samburu unique.</p>",
+        "itinerary": [
+          {
+            "title": { "day": "Day 1", "location": "Nairobi" },
+            "activity": "<p>Arrive at Jomo Kenyatta International Airport. You will be met by your African Citril Safaris guide and transferred to your hotel in Nairobi. Enjoy a welcome dinner and briefing for the journey ahead.</p>"
+          },
+          {
+            "title": { "day": "Day 2", "location": "Samburu National Reserve" },
+            "activity": "<p>Early morning flight or road transfer to Samburu. Afternoon game drive in Samburu National Reserve, home to the Northern Specials — Grevy's zebra, reticulated giraffe, Beisa oryx, Somali ostrich, and gerenuk. Overnight at Samburu camp.</p>"
+          },
+          {
+            "title": { "day": "Day 3", "location": "Samburu National Reserve" },
+            "activity": "<p>Full day in Samburu with morning and evening game drives. The Ewaso Ng'iro River is a magnet for wildlife — look out for large crocodiles and elephants coming to drink. Optional village visit to a Samburu manyatta in the afternoon.</p>"
+          },
+          {
+            "title": { "day": "Day 4", "location": "Lake Nakuru" },
+            "activity": "<p>Transfer south to Lake Nakuru National Park. Famous for its flocks of flamingos and a sanctuary for both black and white rhino, Nakuru offers a very different landscape to Samburu. Afternoon game drive. Overnight at lodge.</p>"
+          },
+          {
+            "title": { "day": "Day 5", "location": "Masai Mara" },
+            "activity": "<p>Morning game drive at Nakuru then transfer to the Masai Mara. Check in to your tented camp and enjoy an evening game drive across the open savannah. The Mara is home to the highest density of lion in Africa.</p>"
+          },
+          {
+            "title": { "day": "Day 6", "location": "Masai Mara" },
+            "activity": "<p>Full day in the Masai Mara. Morning and afternoon game drives with a packed lunch enjoyed in the bush. Depending on the season, witness the dramatic river crossings of the Great Migration as millions of wildebeest push north from Tanzania.</p>"
+          },
+          {
+            "title": { "day": "Day 7", "location": "Masai Mara" },
+            "activity": "<p>Optional early morning hot air balloon safari over the Mara plains, followed by a bush breakfast. Final afternoon game drive before a farewell dinner at camp under the stars.</p>"
+          },
+          {
+            "title": { "day": "Day 8", "location": "Nairobi / Departure" },
+            "activity": "<p>Morning flight back to Nairobi. Transfer to the airport for your international departure, or extend your stay with a beach add-on on the Kenyan coast.</p>"
+          }
+        ]
+      }
+    },
+    {
+      "acf": {
+        "slug": "big-five-safari",
+        "title": "Big Five Safari",
+        "destination": "Kenya & Tanzania",
+        "days": "10 Days / 9 Nights",
+        "image": "/images/placeholder.jpg",
+        "description": "<p>The ultimate bucket-list safari. This carefully designed itinerary gives you the best possible chance of encountering all five of Africa's most iconic animals — lion, leopard, elephant, buffalo, and rhino — across two of East Africa's finest ecosystems. From the wide-open plains of the Serengeti to the rhino sanctuary at Lake Nakuru, every day brings a new possibility.</p>",
+        "itinerary": [
+          {
+            "title": { "day": "Day 1", "location": "Nairobi" },
+            "activity": "<p>Arrive in Nairobi and transfer to your hotel. Evening briefing with your guide to outline the adventure ahead. Overnight in Nairobi.</p>"
+          },
+          {
+            "title": { "day": "Day 2", "location": "Amboseli National Park" },
+            "activity": "<p>Drive south to Amboseli, set against the iconic backdrop of Mount Kilimanjaro. Amboseli is famous for its large elephant herds and offers outstanding views of Africa's highest peak on clear mornings. Afternoon game drive.</p>"
+          },
+          {
+            "title": { "day": "Day 3", "location": "Amboseli National Park" },
+            "activity": "<p>Full day in Amboseli. Morning game drive followed by a visit to a Maasai village. Evening drive as the light turns golden around Kilimanjaro.</p>"
+          },
+          {
+            "title": { "day": "Day 4", "location": "Lake Nakuru" },
+            "activity": "<p>Transfer north to Lake Nakuru National Park, a stronghold for both black and white rhino in Kenya. Afternoon game drive targeting the park's resident rhino population as well as lion, leopard, and waterbuck.</p>"
+          },
+          {
+            "title": { "day": "Day 5", "location": "Masai Mara" },
+            "activity": "<p>Transfer west to the Masai Mara. Check in and evening game drive. The Mara ecosystem supports lions, leopards, elephants, and large buffalo herds — four of the Big Five in a single landscape.</p>"
+          },
+          {
+            "title": { "day": "Day 6", "location": "Masai Mara" },
+            "activity": "<p>Full day exploring the Mara. Focus game drives on predator activity in the early morning and late afternoon. Sundowner drinks in the bush as the sun drops below the Oloololo Escarpment.</p>"
+          },
+          {
+            "title": { "day": "Day 7", "location": "Serengeti National Park" },
+            "activity": "<p>Cross the border into Tanzania and enter the Serengeti. Afternoon game drive through the iconic endless plains. The Serengeti is the stage for the largest animal migration on earth.</p>"
+          },
+          {
+            "title": { "day": "Day 8", "location": "Serengeti National Park" },
+            "activity": "<p>Full day in the Serengeti with morning and afternoon game drives. Depending on the season, track the wildebeest herds or look for the resident cheetah coalitions on the open grasslands.</p>"
+          },
+          {
+            "title": { "day": "Day 9", "location": "Ngorongoro Crater" },
+            "activity": "<p>Descend into the Ngorongoro Crater, a UNESCO World Heritage Site and one of Africa's greatest wildlife spectacles. The crater floor hosts an extraordinary concentration of wildlife including the endangered black rhino, completing the Big Five for most visitors.</p>"
+          },
+          {
+            "title": { "day": "Day 10", "location": "Arusha / Departure" },
+            "activity": "<p>Morning transfer to Arusha or Kilimanjaro International Airport for your onward flight. A journey you will never forget.</p>"
+          }
+        ]
+      }
+    },
+    {
+      "acf": {
+        "slug": "highlights-of-kenya",
+        "title": "Highlights of Kenya",
+        "destination": "Kenya",
+        "days": "6 Days / 5 Nights",
+        "image": "/images/placeholder.jpg",
+        "description": "<p>A perfectly paced introduction to Kenya for first-time safari-goers. In six days you will experience the diversity of Kenyan wildlife across three distinct ecosystems — the dry semi-arid north at Samburu, the Rift Valley lakes, and the legendary Masai Mara. Our experienced guides ensure you see and understand as much as possible within a compact timeframe.</p>",
+        "itinerary": [
+          {
+            "title": { "day": "Day 1", "location": "Nairobi / Samburu" },
+            "activity": "<p>Arrive in Nairobi and fly or drive to Samburu National Reserve. Check in to camp and enjoy an afternoon game drive along the Ewaso Ng'iro River.</p>"
+          },
+          {
+            "title": { "day": "Day 2", "location": "Samburu National Reserve" },
+            "activity": "<p>Full day in Samburu with morning and sunset game drives. Look for the Northern Specials — species found nowhere else in Kenya — and the large elephant herds that congregate along the river.</p>"
+          },
+          {
+            "title": { "day": "Day 3", "location": "Lake Nakuru" },
+            "activity": "<p>Fly south to Lake Nakuru. Afternoon game drive in the national park, famous for its flamingos, rhino sanctuary, and tree-climbing lions. Overnight at lakeside lodge.</p>"
+          },
+          {
+            "title": { "day": "Day 4", "location": "Masai Mara" },
+            "activity": "<p>Transfer west to the Masai Mara. Arrive in time for an evening game drive across the open plains. Check in to your tented camp overlooking the savannah.</p>"
+          },
+          {
+            "title": { "day": "Day 5", "location": "Masai Mara" },
+            "activity": "<p>Full day in the Masai Mara with morning and afternoon game drives. The Mara offers year-round exceptional game viewing — predator sightings, elephant herds, and vast plains teeming with resident wildlife.</p>"
+          },
+          {
+            "title": { "day": "Day 6", "location": "Nairobi / Departure" },
+            "activity": "<p>Morning game drive then fly back to Nairobi for your international connection. Optional half-day city tour of Nairobi if your flight allows.</p>"
+          }
+        ]
+      }
+    },
+    {
+      "acf": {
+        "slug": "best-of-tanzania",
+        "title": "Best of Tanzania",
+        "destination": "Tanzania",
+        "days": "9 Days / 8 Nights",
+        "image": "/images/placeholder.jpg",
+        "description": "<p>Tanzania is home to some of the world's most spectacular wildlife areas, and this itinerary takes you to all of them. From the vast grasslands of the Serengeti to the wildlife-packed Ngorongoro Crater and the remote Tarangire — famous for its enormous elephant herds and ancient baobab trees — this is Tanzania at its finest, ending with a few days of relaxation on the idyllic island of Zanzibar.</p>",
+        "itinerary": [
+          {
+            "title": { "day": "Day 1", "location": "Arusha" },
+            "activity": "<p>Arrive at Kilimanjaro International Airport. Transfer to your hotel in Arusha for an overnight stay. Evening briefing with your guide.</p>"
+          },
+          {
+            "title": { "day": "Day 2", "location": "Tarangire National Park" },
+            "activity": "<p>Drive to Tarangire National Park, home to the largest elephant population in northern Tanzania. The ancient baobab trees provide a dramatic backdrop for afternoon game drives along the Tarangire River.</p>"
+          },
+          {
+            "title": { "day": "Day 3", "location": "Tarangire National Park" },
+            "activity": "<p>Full day in Tarangire. Look for large predators — lion prides are frequently seen here — as well as the park's impressive variety of dry-country antelope and hundreds of bird species.</p>"
+          },
+          {
+            "title": { "day": "Day 4", "location": "Serengeti National Park" },
+            "activity": "<p>Transfer to the Serengeti via the Ngorongoro highlands. Enter the Serengeti and enjoy your first game drive across the iconic plains. Check in to your central Serengeti camp.</p>"
+          },
+          {
+            "title": { "day": "Day 5", "location": "Serengeti National Park" },
+            "activity": "<p>Full day in the Serengeti. Spend the morning tracking predators — cheetah, leopard, and lion are all regularly sighted — and the afternoon following large herds of zebra and wildebeest.</p>"
+          },
+          {
+            "title": { "day": "Day 6", "location": "Serengeti National Park" },
+            "activity": "<p>A second full day to explore the Serengeti's diverse habitats — from the kopjes of the central Seronera to the acacia woodlands of the western corridor. Bush lunch in a spectacular setting.</p>"
+          },
+          {
+            "title": { "day": "Day 7", "location": "Ngorongoro Crater" },
+            "activity": "<p>Transfer to the Ngorongoro Conservation Area. Check in to your crater rim lodge with sweeping views into the caldera. Afternoon descent into the crater for a game drive on the crater floor.</p>"
+          },
+          {
+            "title": { "day": "Day 8", "location": "Zanzibar" },
+            "activity": "<p>Morning flight from Arusha or Kilimanjaro to Zanzibar. Transfer to your beach hotel on the east coast. Afternoon at leisure — swim, snorkel, or simply unwind after the safari.</p>"
+          },
+          {
+            "title": { "day": "Day 9", "location": "Zanzibar / Departure" },
+            "activity": "<p>Final morning on the beach before transfer to Zanzibar airport for your onward or homebound flight. A perfect ending to an extraordinary East African journey.</p>"
+          }
+        ]
+      }
+    }
+  ]
+}
