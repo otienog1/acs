@@ -25,8 +25,8 @@ const ContactForm = (props: any) => {
         <form onSubmit={handleFormSubmit} encType="multipart/form-data" className="space-y-6">
 
             <div>
-                <label htmlFor="name" className="block text-[10px] tracking-[0.25em] uppercase text-[#742E13] font-medium mb-3">
-                    Full Name <span className="text-[#C2AE72]">*</span>
+                <label htmlFor="name" className="block text-[10px] tracking-[0.25em] uppercase text-clay font-medium mb-3">
+                    Full Name <span className="text-gold">*</span>
                 </label>
                 <input
                     id="name"
@@ -34,13 +34,13 @@ const ContactForm = (props: any) => {
                     placeholder="Your full name"
                     required
                     onChange={e => handleFieldChange('your-name', e)}
-                    className="w-full bg-[#F2EDE4] border-0 border-b-2 border-[#E8E0D4] focus:border-[#742E13] text-[#1a1a1a] text-sm px-4 py-4 outline-none transition-colors duration-300 placeholder:text-[#9a9a9a]"
+                    className="w-full bg-sand border-0 border-b-2 border-stone focus:border-clay text-ink text-sm px-4 py-4 outline-none transition-colors duration-300 placeholder:text-ink/40"
                 />
             </div>
 
             <div>
-                <label htmlFor="email" className="block text-[10px] tracking-[0.25em] uppercase text-[#742E13] font-medium mb-3">
-                    Email Address <span className="text-[#C2AE72]">*</span>
+                <label htmlFor="email" className="block text-[10px] tracking-[0.25em] uppercase text-clay font-medium mb-3">
+                    Email Address <span className="text-gold">*</span>
                 </label>
                 <input
                     id="email"
@@ -48,13 +48,13 @@ const ContactForm = (props: any) => {
                     placeholder="your@email.com"
                     required
                     onChange={e => handleFieldChange('your-email', e)}
-                    className="w-full bg-[#F2EDE4] border-0 border-b-2 border-[#E8E0D4] focus:border-[#742E13] text-[#1a1a1a] text-sm px-4 py-4 outline-none transition-colors duration-300 placeholder:text-[#9a9a9a]"
+                    className="w-full bg-sand border-0 border-b-2 border-stone focus:border-clay text-ink text-sm px-4 py-4 outline-none transition-colors duration-300 placeholder:text-ink/40"
                 />
             </div>
 
             <div>
-                <label htmlFor="message" className="block text-[10px] tracking-[0.25em] uppercase text-[#742E13] font-medium mb-3">
-                    Message <span className="text-[#C2AE72]">*</span>
+                <label htmlFor="message" className="block text-[10px] tracking-[0.25em] uppercase text-clay font-medium mb-3">
+                    Message <span className="text-gold">*</span>
                 </label>
                 <textarea
                     id="message"
@@ -62,7 +62,7 @@ const ContactForm = (props: any) => {
                     placeholder="Tell us about your ideal safari — destinations, dates, group size, and any special interests."
                     required
                     onChange={e => handleFieldChange('your-message', e)}
-                    className="w-full bg-[#F2EDE4] border-0 border-b-2 border-[#E8E0D4] focus:border-[#742E13] text-[#1a1a1a] text-sm px-4 py-4 outline-none transition-colors duration-300 placeholder:text-[#9a9a9a] resize-none"
+                    className="w-full bg-sand border-0 border-b-2 border-stone focus:border-clay text-ink text-sm px-4 py-4 outline-none transition-colors duration-300 placeholder:text-ink/40 resize-none"
                 />
             </div>
 
@@ -70,13 +70,13 @@ const ContactForm = (props: any) => {
                 <button
                     type="submit"
                     disabled={isLoading}
-                    className="inline-block bg-[#742E13] text-white text-[10px] tracking-[0.25em] uppercase px-10 py-4 hover:bg-[#5a2310] disabled:opacity-50 disabled:cursor-not-allowed transition-colors duration-300"
+                    className="inline-block bg-clay text-ivory text-[10px] tracking-[0.25em] uppercase px-10 py-4 hover:bg-clay-deep disabled:opacity-50 disabled:cursor-not-allowed transition-colors duration-300"
                 >
-                    {isLoading ? "Sending…" : "Send Message"}
+                    {isLoading ? "Sending…" : "Send Enquiry"}
                 </button>
 
                 {isSent && (
-                    <span className="text-[#1B7632] text-sm font-medium flex items-center gap-2">
+                    <span className="text-olive text-sm font-medium flex items-center gap-2">
                         <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
                             <path strokeLinecap="round" strokeLinejoin="round" d="M5 13l4 4L19 7" />
                         </svg>
@@ -84,7 +84,7 @@ const ContactForm = (props: any) => {
                     </span>
                 )}
                 {hasError && (
-                    <span className="text-red-600 text-sm">{hasError}</span>
+                    <span className="text-red-700 text-sm">{hasError}</span>
                 )}
             </div>
 

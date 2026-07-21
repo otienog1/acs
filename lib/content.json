@@ -4,15 +4,19 @@
       "slider": [
         {
           "image": "https://images.unsplash.com/photo-1516426122078-c23e76319801?auto=format&fit=crop&w=1920&q=80",
-          "author": "Kenya"
+          "alt": "Elephant herd crossing open savannah at golden hour, Kenya"
         },
         {
           "image": "https://images.unsplash.com/photo-1547471080-7cc2caa01a7e?auto=format&fit=crop&w=1920&q=80",
-          "author": "Tanzania"
+          "alt": "Lioness resting on a rock outcrop over the Serengeti plains"
         },
         {
           "image": "https://images.unsplash.com/photo-1551909175-8a68da93d5f9?auto=format&fit=crop&w=1920&q=80",
-          "author": "East Africa"
+          "alt": "Hot air balloon drifting over the Masai Mara at sunrise"
+        },
+        {
+          "image": "https://images.unsplash.com/photo-1516026672447-2b2d76e74a3e?auto=format&fit=crop&w=1920&q=80",
+          "alt": "Giraffe silhouetted against an East African sunset"
         }
       ]
     },

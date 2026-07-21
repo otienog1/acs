@@ -3,25 +3,97 @@
 @tailwind utilities;
 
 @layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
   body {
-    @apply bg-background-light text-text-light dark:bg-background-dark dark:text-text-dark;
+    @apply bg-ivory text-ink antialiased;
+    font-feature-settings: 'liga' 1, 'kern' 1;
+  }
+
+  ::selection {
+    background-color: #B9975B;
+    color: #FBF7EF;
+  }
+
+  :focus-visible {
+    outline: 2px solid #B9975B;
+    outline-offset: 3px;
+  }
+
+  /* Slim, editorial scrollbar */
+  ::-webkit-scrollbar {
+    width: 10px;
+  }
+  ::-webkit-scrollbar-track {
+    background: #FBF7EF;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #D8C9A8;
+    border: 2px solid #FBF7EF;
+    border-radius: 999px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: #B9975B;
   }
 }
 
-/* Add any other global styles here */
+@layer utilities {
+  /* Subtle film-grain texture for atmosphere on dark/cinematic sections */
+  .grain-overlay {
+    position: relative;
+  }
+  .grain-overlay::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background-image: url('/noise.png');
+    background-repeat: repeat;
+    opacity: 0.05;
+    mix-blend-mode: overlay;
+    pointer-events: none;
+  }
 
-/* body {
-  font-family: "google sans" !important;
+  /* Scroll-reveal: paired with the Reveal component's IntersectionObserver */
+  .reveal-init {
+    opacity: 0;
+    transform: translateY(28px);
+  }
+  .reveal-init.is-visible {
+    animation: reveal 0.9s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+  }
 }
 
-.font-display {
-  font-family: "google sans";
-} */
-
-.navbar {
-  background-color: rgba(27, 118, 50, 1);
+@keyframes menu-in {
+  from {
+    opacity: 0;
+    transform: translateY(-6px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
-.cs-text-green {
-  color: rgba(27, 118, 50, 1);
+@keyframes reveal {
+  0% {
+    opacity: 0;
+    transform: translateY(28px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .reveal-init {
+    opacity: 1 !important;
+    transform: none !important;
+    animation: none !important;
+  }
+  html {
+    scroll-behavior: auto;
+  }
 }

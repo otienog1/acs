@@ -35,6 +35,43 @@ module.exports = {
           light: '#E57373',
           dark: '#FF7043',
         },
+        // Safari editorial palette
+        ivory: '#FBF7EF',
+        sand: '#EEE3CC',
+        stone: '#D8C9A8',
+        olive: {
+          DEFAULT: '#454F32',
+          deep: '#262D1A',
+        },
+        gold: {
+          DEFAULT: '#B9975B',
+          soft: '#D9C393',
+        },
+        clay: {
+          DEFAULT: '#763B22',
+          deep: '#4E2515',
+        },
+        ink: '#1A1611',
+      },
+      fontFamily: {
+        serif: ['var(--font-fraunces)', 'ui-serif', 'Georgia', 'serif'],
+      },
+      keyframes: {
+        reveal: {
+          '0%': { opacity: '0', transform: 'translateY(28px)' },
+          '100%': { opacity: '1', transform: 'translateY(0)' },
+        },
+        'fade-in': {
+          '0%': { opacity: '0' },
+          '100%': { opacity: '1' },
+        },
+      },
+      animation: {
+        reveal: 'reveal 0.9s cubic-bezier(0.16,1,0.3,1) forwards',
+        'fade-in': 'fade-in 1.1s ease forwards',
+      },
+      transitionTimingFunction: {
+        editorial: 'cubic-bezier(0.16,1,0.3,1)',
       },
     },
   },

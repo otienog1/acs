@@ -13,26 +13,12 @@ const Slider = (props: any) => {
         slider = gsap.utils.selector(sliders)
 
     const setSlide = useCallback(() => {
-
-        // bullet('.list__item').forEach(bullet => {
-        //     bullet.classList.remove("is__active")
-        // })
-
-        // bullet('.list__item')[next].classList.add("is__active")
-
         slider('.slide').forEach((slider: any) => {
             slider.style.zIndex = 1
         });
 
         sliders.current.children[next.current].style.zIndex = 3
         sliders.current.children[_current.current].style.zIndex = 2
-
-        // textWrappers('.slideText').forEach(tt => {
-        //     tt.style.opacity = 0
-        // });
-
-        // textWrapper.current.children[next].style.opacity = 0
-        // textWrapper.current.children[current].style.opacity = 1
     }, [_current, next, slider])
 
     const nextSlide = useCallback(() => {
@@ -64,17 +50,6 @@ const Slider = (props: any) => {
                 ease: 'power3.inOut'
             })
 
-            // gsap.to(textWrapper.current.children[current], {
-            //     duration: 2,
-            //     opacity: 0,
-            //     ease: 'power3.inOut'
-            // })
-
-            // gsap.to(textWrapper.current.children[next], {
-            //     duration: 2,
-            //     opacity: 1,
-            //     ease: 'power3.inOut'
-            // })
             getSlide()
         }
     }, [_current, getSlide, setSlide, next, speed])
@@ -104,28 +79,15 @@ const Slider = (props: any) => {
         gsap.killTweensOf(play)
     }
 
-    // const clickEvent = (e) => {
-    //     bullet('.list__item').forEach((bullet, i) => {
-    //         bullet.addEventListener('click', () => {
-    //             direction = "next"
-    //             stopAutoplay()
-    //             next = i
-    //             tweenSlide()
-    //             current = i
-    //             startAutoplay()
-    //         })
-    //     })
-    // }
-
     useEffect(() => { initSlide() }, [initSlide])
 
     return (
-        <div ref={sliders} className="w-full h-full relative overflow-hidden bg-white">
+        <div ref={sliders} className="w-full h-full relative isolate overflow-hidden bg-ink">
             {
                 Array.from(slides).map((slide: any, i: any) => (
                     <Slide
                         source={slide.image}
-                        author={slide.author}
+                        alt={slide.alt}
                         key={i}
                     />
                 )
@@ -136,30 +98,19 @@ const Slider = (props: any) => {
 }
 
 const Slide = (props: any) => {
-    let { source, author } = props
+    let { source, alt } = props
 
     return (
         <div className="slide absolute w-full h-full opacity-0">
-            <div className="relative w-full h-full bg-white">
+            <div className="relative w-full h-full bg-ink">
                 <Image
                     src={source}
-                    alt="Alt"
+                    alt={alt || ''}
                     fill
+                    priority
                     style={{ objectFit: "cover" }}
                 />
-                <div className="absolute h-full w-full">
-                    <Author author={author} />
-                </div>
             </div>
-        </div>
-    )
-}
-const Author = (props: any) => {
-    const { author } = props
-
-    return (
-        <div className="max-w-screen-xl w-full mx-auto px-4 flex h-full justify-end flex-col">
-            <p className="text-white text-sm tracking-tighter opacity-75 mb-12">Image by {author}</p>
         </div>
     )
 }

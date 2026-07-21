@@ -3,20 +3,17 @@
 import Link from "next/link"
 import Image from 'next/image'
 import Logo from '../public/_Logo.svg'
-import { useState, useEffect } from "react"
+import { useState, useEffect, useRef, useCallback } from "react"
 import { usePathname } from 'next/navigation'
-
-const NAV_LINKS = [
-    { href: '/',            label: 'Home' },
-    { href: '/about',       label: 'About' },
-    { href: '/destinations',label: 'Destinations' },
-    { href: '/experience',  label: 'Experiences' },
-    { href: '/contact',     label: 'Contact' },
-]
+import { NAV_ITEMS } from './nav/navData'
+import MegaPanel from './nav/MegaPanel'
+import MobileMenu from './nav/MobileMenu'
 
 const Navbar = () => {
     const [menuOpen, setMenuOpen] = useState(false)
     const [scrolled, setScrolled] = useState(false)
+    const [openMega, setOpenMega] = useState<string | null>(null)
+    const closeTimer = useRef<ReturnType<typeof setTimeout> | null>(null)
     const pathname = usePathname()
     const isHome = pathname === '/'
 
@@ -26,24 +23,57 @@ const Navbar = () => {
         return () => window.removeEventListener('scroll', onScroll)
     }, [])
 
-    // On homepage: transparent until scrolled; on other pages: always solid
-    const solidBg = !isHome || scrolled
-    const textColor = solidBg ? 'text-[#1a1a1a]' : 'text-white'
+    // Close everything whenever the route changes
+    useEffect(() => {
+        setOpenMega(null)
+        setMenuOpen(false)
+    }, [pathname])
+
+    // Escape closes the open mega menu
+    useEffect(() => {
+        const onKeyDown = (e: KeyboardEvent) => {
+            if (e.key === 'Escape') setOpenMega(null)
+        }
+        window.addEventListener('keydown', onKeyDown)
+        return () => window.removeEventListener('keydown', onKeyDown)
+    }, [])
+
+    const clearCloseTimer = useCallback(() => {
+        if (closeTimer.current) {
+            clearTimeout(closeTimer.current)
+            closeTimer.current = null
+        }
+    }, [])
+
+    const openNow = useCallback((key: string) => {
+        clearCloseTimer()
+        setOpenMega(key)
+    }, [clearCloseTimer])
+
+    const scheduleClose = useCallback(() => {
+        clearCloseTimer()
+        closeTimer.current = setTimeout(() => setOpenMega(null), 150)
+    }, [clearCloseTimer])
+
+    // On homepage: transparent until scrolled or a mega menu is open; on other pages: always solid
+    const solidBg = !isHome || scrolled || !!openMega
+    const textColor = solidBg ? 'text-ink' : 'text-ivory'
     const logoFilter = solidBg ? '' : 'brightness-0 invert'
 
     return (
         <>
             <header
+                onMouseLeave={scheduleClose}
                 className={`fixed top-0 left-0 right-0 z-50 transition-all duration-500 ${
                     solidBg
-                        ? 'bg-white/95 backdrop-blur-sm border-b border-[#C2AE72]/30 py-4'
-                        : 'bg-transparent py-6'
+                        ? 'bg-ivory/95 backdrop-blur-sm border-b border-gold/25 py-4'
+                        : 'bg-transparent py-7'
                 }`}
             >
-                <div className="max-w-screen-xl mx-auto px-8 md:px-16 lg:px-24">
+                <div className="px-8 md:px-16 lg:px-24">
                     <div className="flex items-center justify-between">
 
-                        {/* Logo */}
+                        {/* Logo — larger over the hero, shrinks once the bar turns solid */}
                         <Link href="/" className="shrink-0">
                             <Image
                                 src={Logo}
@@ -51,50 +81,75 @@ const Navbar = () => {
                                 height={84}
                                 alt="African Citril Safaris"
                                 className={`transition-all duration-500 ${logoFilter}`}
-                                style={{ height: '48px', width: 'auto' }}
+                                style={{ height: solidBg ? '46px' : '60px', width: 'auto' }}
                             />
                         </Link>
 
-                        {/* Desktop nav — centered */}
-                        <nav className="hidden md:flex items-center gap-8 lg:gap-10">
-                            {NAV_LINKS.map(({ href, label }) => {
-                                const active = pathname === href
+                        {/* Desktop nav + CTA, grouped together on the right */}
+                        <div className="hidden lg:flex items-center gap-10 xl:gap-12">
+                            <nav aria-label="Main" className="flex items-center gap-7 xl:gap-9">
+                                {NAV_ITEMS.map((item) => {
+                                const active = pathname === item.href || pathname.startsWith(`${item.href}/`)
+                                const isOpen = openMega === item.key
+
                                 return (
-                                    <Link
-                                        key={href}
-                                        href={href}
-                                        className={`text-[10px] tracking-[0.25em] uppercase font-medium transition-colors duration-300 relative group ${
-                                            active
-                                                ? 'text-[#742E13]'
-                                                : `${textColor} hover:text-[#742E13]`
-                                        }`}
+                                    <div
+                                        key={item.key}
+                                        className="relative"
+                                        onMouseEnter={() => item.mega && openNow(item.key)}
                                     >
-                                        {label}
-                                        {/* Active underline */}
-                                        <span className={`absolute -bottom-1 left-0 right-0 h-px bg-[#C2AE72] transition-transform duration-300 origin-left ${
-                                            active ? 'scale-x-100' : 'scale-x-0 group-hover:scale-x-100'
-                                        }`} />
-                                    </Link>
+                                        {item.mega ? (
+                                            <button
+                                                onClick={() => setOpenMega(isOpen ? null : item.key)}
+                                                aria-expanded={isOpen}
+                                                aria-haspopup="true"
+                                                className={`group flex items-center gap-1.5 text-[10px] font-medium uppercase tracking-[0.25em] transition-colors duration-300 ${
+                                                    active || isOpen ? 'text-clay' : `${textColor} hover:text-clay`
+                                                }`}
+                                            >
+                                                {item.label}
+                                                <svg
+                                                    className={`h-2.5 w-2.5 transition-transform duration-300 ${isOpen ? 'rotate-180' : ''}`}
+                                                    fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}
+                                                >
+                                                    <path strokeLinecap="round" strokeLinejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
+                                                </svg>
+                                                <span className={`absolute -bottom-1.5 left-0 right-0 h-px origin-left bg-gold transition-transform duration-300 ${
+                                                    active || isOpen ? 'scale-x-100' : 'scale-x-0 group-hover:scale-x-100'
+                                                }`} />
+                                            </button>
+                                        ) : (
+                                            <Link
+                                                href={item.href}
+                                                className={`group relative text-[10px] font-medium uppercase tracking-[0.25em] transition-colors duration-300 ${
+                                                    active ? 'text-clay' : `${textColor} hover:text-clay`
+                                                }`}
+                                            >
+                                                {item.label}
+                                                <span className={`absolute -bottom-1.5 left-0 right-0 h-px origin-left bg-gold transition-transform duration-300 ${
+                                                    active ? 'scale-x-100' : 'scale-x-0 group-hover:scale-x-100'
+                                                }`} />
+                                            </Link>
+                                        )}
+                                    </div>
                                 )
                             })}
                         </nav>
 
-                        {/* Desktop CTA */}
+                        {/* Desktop CTA — styled like the other nav links, but always in the active state */}
                         <Link
                             href="/contact"
-                            className={`hidden md:inline-block text-[10px] tracking-[0.25em] uppercase px-6 py-3 transition-all duration-300 shrink-0 ${
-                                solidBg
-                                    ? 'bg-[#742E13] text-white hover:bg-[#5a2310]'
-                                    : 'bg-white/15 text-white border border-white/40 hover:bg-white hover:text-[#742E13]'
-                            }`}
+                            className="relative shrink-0 text-[10px] font-medium uppercase tracking-[0.25em] text-clay"
                         >
-                            Book Now
+                            Enquire
+                            <span className="absolute -bottom-1.5 left-0 right-0 h-px bg-gold" />
                         </Link>
+                        </div>
 
                         {/* Mobile hamburger */}
                         <button
                             onClick={() => setMenuOpen(true)}
-                            className={`md:hidden p-2 ${textColor}`}
+                            className={`lg:hidden p-2 ${textColor}`}
                             aria-label="Open menu"
                         >
                             <svg className="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
@@ -104,61 +159,31 @@ const Navbar = () => {
 
                     </div>
                 </div>
+
+                {/* Mega menu panel — mounted only while open, so hidden links aren't tabbable */}
+                {NAV_ITEMS.map((item) => item.mega && openMega === item.key && (
+                    <div
+                        key={item.key}
+                        onMouseEnter={() => openNow(item.key)}
+                        className="absolute inset-x-0 top-full animate-[menu-in_0.22s_ease-out] border-t border-gold/40 bg-ivory shadow-2xl"
+                    >
+                        <div className="px-8 md:px-16 lg:px-24 py-14">
+                            <MegaPanel mega={item.mega} onNavigate={() => setOpenMega(null)} />
+                        </div>
+                    </div>
+                ))}
             </header>
 
-            {/* Mobile overlay menu */}
+            {/* Scrim behind an open mega menu */}
             <div
-                className={`fixed inset-0 z-[100] bg-[#1E0E05] transition-opacity duration-400 md:hidden ${
-                    menuOpen ? 'opacity-100 pointer-events-auto' : 'opacity-0 pointer-events-none'
+                onClick={() => setOpenMega(null)}
+                className={`fixed inset-0 z-40 bg-ink/40 transition-opacity duration-300 ${
+                    openMega ? 'opacity-100' : 'pointer-events-none opacity-0'
                 }`}
-            >
-                {/* Close button */}
-                <button
-                    onClick={() => setMenuOpen(false)}
-                    className="absolute top-6 right-8 text-white/60 hover:text-white transition-colors"
-                    aria-label="Close menu"
-                >
-                    <svg className="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
-                        <path strokeLinecap="round" strokeLinejoin="round" d="M6 18L18 6M6 6l12 12" />
-                    </svg>
-                </button>
+                aria-hidden="true"
+            />
 
-                {/* Logo */}
-                <div className="absolute top-6 left-8">
-                    <Image
-                        src={Logo}
-                        width={80}
-                        height={67}
-                        alt="African Citril Safaris"
-                        className="brightness-0 invert"
-                        style={{ height: '40px', width: 'auto' }}
-                    />
-                </div>
-
-                {/* Links */}
-                <nav className="flex flex-col justify-center h-full px-10 gap-8">
-                    <div className="h-px w-12 bg-[#C2AE72] mb-4" />
-                    {NAV_LINKS.map(({ href, label }) => (
-                        <Link
-                            key={href}
-                            href={href}
-                            onClick={() => setMenuOpen(false)}
-                            className={`text-3xl font-bold tracking-tight transition-colors duration-200 ${
-                                pathname === href ? 'text-[#C2AE72]' : 'text-white hover:text-[#C2AE72]'
-                            }`}
-                        >
-                            {label}
-                        </Link>
-                    ))}
-                    <Link
-                        href="/contact"
-                        onClick={() => setMenuOpen(false)}
-                        className="mt-4 self-start inline-block bg-[#C2AE72] text-white text-xs tracking-[0.2em] uppercase px-8 py-4"
-                    >
-                        Book Now
-                    </Link>
-                </nav>
-            </div>
+            <MobileMenu open={menuOpen} onClose={() => setMenuOpen(false)} />
         </>
     )
 }

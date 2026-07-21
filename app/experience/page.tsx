@@ -2,6 +2,17 @@ import Link from "next/link"
 import Image from "next/image"
 import { getExperiences, getPage } from "@/components/page"
 import content from "@/lib/content.json"
+import Kicker from "@/components/home/Kicker"
+import Reveal from "@/components/home/Reveal"
+import JourneyCard from "@/components/home/JourneyCard"
+
+const stripHtml = (html: string) => html.replace(/<[^>]*>/g, '').trim()
+
+const firstSentence = (html: string) => {
+    const text = stripHtml(html)
+    const cut = text.indexOf('. ')
+    return cut === -1 ? text : text.slice(0, cut + 1)
+}
 
 const Experiences = async () => {
     await getExperiences()
@@ -10,98 +21,81 @@ const Experiences = async () => {
     const experiences = content.experiences
 
     return (
-        <main className="bg-[#FAF8F5]">
+        <main className="bg-ivory">
 
             {/* ── HERO ─────────────────────────────────────────────── */}
-            <div className="relative w-full h-[70vh] min-h-[480px] overflow-hidden">
+            <div className="relative h-[70vh] min-h-[520px] w-full overflow-hidden">
                 <Image
                     src={hero_image}
-                    alt="African Citril Safaris Experiences"
+                    alt="Safari journeys across Kenya and Tanzania"
                     fill
-                    style={{ objectFit: "cover" }}
                     priority
+                    sizes="100vw"
+                    style={{ objectFit: "cover" }}
                 />
-                <div className="absolute inset-0 bg-gradient-to-t from-black/65 via-black/20 to-transparent" />
-                <div className="absolute bottom-0 left-0 px-8 pb-14 md:px-16 lg:px-24">
-                    <p className="text-[#C2AE72] text-[10px] tracking-[0.35em] uppercase mb-3 font-medium">Curated Itineraries</p>
-                    <h1 className="text-white text-4xl md:text-6xl font-bold leading-[1.05] tracking-tight">
-                        Safari Experiences
+                <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-ink/80 via-ink/25 to-ink/10" />
+                <div className="absolute bottom-0 left-0 right-0 px-8 pb-14 md:px-16 lg:px-24">
+                    <Kicker tone="light">Curated Itineraries</Kicker>
+                    <h1 className="mt-6 max-w-2xl font-serif text-[clamp(2.5rem,6vw,5rem)] leading-[1.05] text-ivory">
+                        Safari Journeys
                     </h1>
                 </div>
             </div>
 
             {/* ── INTRO ────────────────────────────────────────────── */}
-            <div className="py-16 px-8 md:px-16 lg:px-24 max-w-screen-xl mx-auto">
-                <div className="flex items-center gap-6 mb-12">
-                    <div className="flex-1 h-px bg-[#C2AE72]/40" />
-                    <span className="text-[#742E13] text-[10px] tracking-[0.35em] uppercase font-medium shrink-0">Our Journeys</span>
-                    <div className="flex-1 h-px bg-[#C2AE72]/40" />
-                </div>
-                <p className="text-center text-[#4a4a4a] text-lg leading-relaxed max-w-2xl mx-auto">
-                    Each itinerary is crafted around the finest wildlife areas in Kenya and Tanzania, combining
-                    authentic encounters with exceptional comfort at every stage of the journey.
-                </p>
-            </div>
+            <section className="px-8 py-24 md:px-16 md:py-32 lg:px-24">
+                <Reveal className="mx-auto max-w-2xl text-center">
+                    <Kicker align="center">Signature Itineraries</Kicker>
+                    <p className="mt-10 text-lg leading-relaxed text-ink/70">
+                        Each itinerary is crafted around the finest wildlife areas in Kenya and Tanzania, combining
+                        authentic encounters with exceptional comfort at every stage of the journey — a starting
+                        point for a conversation, not a fixed template.
+                    </p>
+                </Reveal>
+            </section>
 
-            {/* ── EXPERIENCE GRID ──────────────────────────────────── */}
-            <section className="pb-24 px-8 md:px-16 lg:px-24 max-w-screen-xl mx-auto">
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-8 lg:gap-10">
-                    {experiences.map((experience, i) => (
-                        <Link
-                            key={i}
-                            href={`/experience/${experience.acf.slug}`}
-                            className="group block"
-                        >
-                            {/* Image */}
-                            <div className="relative overflow-hidden h-72 md:h-80 lg:h-96 mb-6">
-                                <Image
-                                    src={experience.acf.image}
-                                    alt={experience.acf.title}
-                                    fill
-                                    style={{ objectFit: "cover" }}
-                                    className="group-hover:scale-105 transition-transform duration-700"
-                                />
-                                {/* Overlay with destination tag */}
-                                <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent" />
-                                <span className="absolute bottom-4 left-5 text-[#C2AE72] text-[10px] tracking-[0.3em] uppercase font-medium">
-                                    {experience.acf.destination}
-                                </span>
-                            </div>
-                            {/* Meta */}
-                            <div className="flex items-start justify-between gap-4">
-                                <div>
-                                    <h2 className="text-xl font-bold text-[#1a1a1a] group-hover:text-[#742E13] transition-colors duration-300 mb-2 leading-tight">
-                                        {experience.acf.title}
-                                    </h2>
-                                    <p className="text-[#4a4a4a] text-sm">{experience.acf.days}</p>
-                                </div>
-                                {/* Arrow */}
-                                <span className="shrink-0 w-10 h-10 border border-[#C2AE72] flex items-center justify-center text-[#C2AE72] group-hover:bg-[#742E13] group-hover:border-[#742E13] group-hover:text-white transition-all duration-300 mt-1">
-                                    <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
-                                        <path strokeLinecap="round" strokeLinejoin="round" d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3" />
-                                    </svg>
-                                </span>
-                            </div>
-                        </Link>
+            {/* ── JOURNEYS GRID ────────────────────────────────────── */}
+            <section className="px-8 pb-24 md:px-16 md:pb-32 lg:px-24">
+                <div className="grid grid-cols-1 gap-10 sm:grid-cols-2 lg:grid-cols-3">
+                    {experiences.map((exp, i) => (
+                        <Reveal key={exp.acf.slug} delay={i * 100}>
+                            <JourneyCard
+                                href={`/experience/${exp.acf.slug}`}
+                                destination={exp.acf.destination}
+                                days={exp.acf.days}
+                                title={exp.acf.title}
+                                teaser={firstSentence(exp.acf.description)}
+                                image={exp.acf.image}
+                            />
+                        </Reveal>
                     ))}
                 </div>
             </section>
 
-            {/* ── CTA ──────────────────────────────────────────────── */}
-            <section className="bg-[#1E0E05] py-20 px-8 md:px-16 text-center">
-                <p className="text-[#C2AE72] text-[10px] tracking-[0.35em] uppercase mb-6 font-medium">Tailor-Made</p>
-                <h2 className="text-white text-3xl md:text-4xl font-bold tracking-tight mb-6 max-w-xl mx-auto">
-                    Don&apos;t see what you&apos;re looking for?
-                </h2>
-                <p className="text-white/60 text-base max-w-md mx-auto mb-10">
-                    We build fully bespoke itineraries from scratch. Tell us your dates, destinations, and interests.
-                </p>
-                <Link
-                    href="/contact"
-                    className="inline-block bg-[#C2AE72] text-white text-[10px] tracking-[0.2em] uppercase px-10 py-4 hover:bg-white hover:text-[#742E13] transition-colors duration-300"
-                >
-                    Plan a Custom Safari
-                </Link>
+            {/* ── BESPOKE CTA ──────────────────────────────────────── */}
+            <section className="relative mx-8 my-24 flex min-h-[420px] items-center overflow-hidden md:mx-16 lg:mx-24">
+                <Image
+                    src="https://images.unsplash.com/photo-1516026672447-2b2d76e74a3e?auto=format&fit=crop&w=1600&q=80"
+                    alt="Giraffe silhouetted against an East African sunset"
+                    fill
+                    style={{ objectFit: 'cover' }}
+                />
+                <div className="absolute inset-0 bg-ink/70" />
+                <Reveal className="relative z-10 w-full px-10 py-16 text-center md:px-20">
+                    <Kicker align="center" tone="light">Tailor-Made</Kicker>
+                    <h2 className="mx-auto mt-6 max-w-xl font-serif text-3xl leading-[1.1] text-ivory md:text-4xl">
+                        Don&apos;t See What You&apos;re Looking For?
+                    </h2>
+                    <p className="mx-auto mt-6 max-w-md text-base leading-relaxed text-ivory/70">
+                        We build fully bespoke itineraries from scratch. Tell us your dates, destinations, and interests.
+                    </p>
+                    <Link
+                        href="/contact"
+                        className="mt-10 inline-block bg-gold px-9 py-4 text-xs uppercase tracking-[0.2em] text-ink transition-colors duration-300 hover:bg-ivory"
+                    >
+                        Plan a Custom Safari
+                    </Link>
+                </Reveal>
             </section>
 
         </main>
