@@ -21,7 +21,7 @@ const Destinations = async () => {
             <div className="relative h-[70vh] min-h-[520px] w-full overflow-hidden">
                 <Image
                     src={hero_image}
-                    alt="African Citril Safaris destinations across Kenya and Tanzania"
+                    alt="A topi silhouetted on the plains beneath a low, hazy sun"
                     fill
                     style={{ objectFit: "cover" }}
                     priority

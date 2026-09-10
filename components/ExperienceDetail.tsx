@@ -10,6 +10,7 @@ type ItinItem = {
 
 type ExperienceProps = {
     image: string
+    hero: string
     title: string
     destination: string
     days: string
@@ -17,13 +18,13 @@ type ExperienceProps = {
     itinerary: ItinItem[]
 }
 
-const ExperienceDetail = ({ image, title, destination, days, description, itinerary }: ExperienceProps) => {
+const ExperienceDetail = ({ hero, title, destination, days, description, itinerary }: ExperienceProps) => {
     return (
         <main className="bg-ivory">
 
             {/* ── HERO ─────────────────────────────────────────────── */}
             <div className="relative h-[60vh] min-h-[440px] w-full overflow-hidden">
-                <Image src={image} alt={title} fill priority sizes="100vw" style={{ objectFit: "cover" }} />
+                <Image src={hero} alt={`${title} — ${destination}`} fill priority sizes="100vw" style={{ objectFit: "cover" }} />
                 <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-ink/80 via-ink/25 to-ink/10" />
                 <div className="absolute bottom-0 left-0 right-0 px-8 pb-14 md:px-16 lg:px-24">
                     <Kicker tone="light">{destination}</Kicker>

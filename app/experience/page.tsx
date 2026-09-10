@@ -27,7 +27,7 @@ const Experiences = async () => {
             <div className="relative h-[70vh] min-h-[520px] w-full overflow-hidden">
                 <Image
                     src={hero_image}
-                    alt="Safari journeys across Kenya and Tanzania"
+                    alt="Maasai guides sitting with travellers on the grass, demonstrating fire-making"
                     fill
                     priority
                     sizes="100vw"
@@ -75,9 +75,10 @@ const Experiences = async () => {
             {/* ── BESPOKE CTA ──────────────────────────────────────── */}
             <section className="relative mx-8 my-24 flex min-h-[420px] items-center overflow-hidden md:mx-16 lg:mx-24">
                 <Image
-                    src="https://images.unsplash.com/photo-1516026672447-2b2d76e74a3e?auto=format&fit=crop&w=1600&q=80"
-                    alt="Giraffe silhouetted against an East African sunset"
+                    src="/images/home/cta.webp"
+                    alt="A lilac-breasted roller taking flight over the bush"
                     fill
+                    sizes="100vw"
                     style={{ objectFit: 'cover' }}
                 />
                 <div className="absolute inset-0 bg-ink/70" />

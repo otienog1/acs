@@ -15,7 +15,7 @@ const firstSentence = (html: string) => {
 }
 
 const DestinationDetail = ({ destination }: { destination: DestinationEntry }) => {
-    const { name, country, kicker, overview, highlights, bestTime, wildlife, relatedExperienceSlugs, image } = destination
+    const { name, country, kicker, overview, highlights, bestTime, wildlife, relatedExperienceSlugs, hero } = destination
 
     const relatedExperiences = content.experiences.filter((exp) =>
         relatedExperienceSlugs.includes(exp.acf.slug)
@@ -26,7 +26,7 @@ const DestinationDetail = ({ destination }: { destination: DestinationEntry }) =
 
             {/* ── HERO ─────────────────────────────────────────────── */}
             <div className="relative h-[70vh] min-h-[520px] w-full overflow-hidden">
-                <Image src={image} alt={name} fill priority sizes="100vw" style={{ objectFit: 'cover' }} />
+                <Image src={hero} alt={`${name}, ${country}`} fill priority sizes="100vw" style={{ objectFit: 'cover' }} />
                 <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-ink/80 via-ink/25 to-ink/10" />
                 <div className="absolute bottom-0 left-0 right-0 px-8 pb-14 md:px-16 lg:px-24">
                     <Kicker tone="light">{country}</Kicker>

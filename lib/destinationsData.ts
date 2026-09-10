@@ -10,6 +10,8 @@ export interface DestinationEntry {
     wildlife: string[]
     relatedExperienceSlugs: string[]
     image: string
+    hero: string
+    thumb: string
 }
 
 export const DESTINATIONS: DestinationEntry[] = [
@@ -32,7 +34,9 @@ export const DESTINATIONS: DestinationEntry[] = [
         bestTime: 'July to October for the river crossings; the bordering conservancies reward a visit in any month.',
         wildlife: ['Lion', 'Cheetah', 'Wildebeest', 'Leopard', 'Elephant', 'Nile Crocodile'],
         relatedExperienceSlugs: ['best-of-kenya-safari', 'big-five-safari', 'highlights-of-kenya'],
-        image: 'https://images.unsplash.com/photo-1551909175-8a68da93d5f9?auto=format&fit=crop&w=1600&q=80',
+        image: '/images/destinations/masai-mara-card.webp',
+        hero: '/images/destinations/masai-mara-hero.webp',
+        thumb: '/images/thumbs/masai-mara.webp',
     },
     {
         slug: 'amboseli',
@@ -53,7 +57,9 @@ export const DESTINATIONS: DestinationEntry[] = [
         bestTime: 'June to October and January to February, when skies are clearest and Kilimanjaro is most often visible.',
         wildlife: ['Elephant', 'Lion', 'Buffalo', 'Giraffe', 'Hippo', '400+ Bird Species'],
         relatedExperienceSlugs: ['big-five-safari'],
-        image: 'https://images.unsplash.com/photo-1516426122078-c23e76319801?auto=format&fit=crop&w=1600&q=80',
+        image: '/images/destinations/amboseli-card.webp',
+        hero: '/images/destinations/amboseli-hero.webp',
+        thumb: '/images/thumbs/amboseli.webp',
     },
     {
         slug: 'samburu',
@@ -74,7 +80,9 @@ export const DESTINATIONS: DestinationEntry[] = [
         bestTime: 'June to October and January to March, during the drier months when wildlife concentrates along the river.',
         wildlife: ["Grevy's Zebra", 'Reticulated Giraffe', 'Elephant', 'Leopard', 'Beisa Oryx', 'Gerenuk'],
         relatedExperienceSlugs: ['best-of-kenya-safari', 'highlights-of-kenya'],
-        image: 'https://images.unsplash.com/photo-1564760055775-d63b17a55c44?auto=format&fit=crop&w=1600&q=80',
+        image: '/images/destinations/samburu-card.webp',
+        hero: '/images/destinations/samburu-hero.webp',
+        thumb: '/images/thumbs/samburu.webp',
     },
     {
         slug: 'laikipia',
@@ -95,7 +103,9 @@ export const DESTINATIONS: DestinationEntry[] = [
         bestTime: 'Rewarding in any season; the drier months (June–October, January–March) best suit walking safaris.',
         wildlife: ['Black Rhino', 'African Wild Dog', 'Elephant', 'Lion', "Grevy's Zebra", 'Leopard'],
         relatedExperienceSlugs: [],
-        image: 'https://images.unsplash.com/photo-1504942579992-ba27b4ea5877?auto=format&fit=crop&w=1600&q=80',
+        image: '/images/destinations/laikipia-card.webp',
+        hero: '/images/destinations/laikipia-hero.webp',
+        thumb: '/images/thumbs/laikipia.webp',
     },
     {
         slug: 'lake-nakuru',
@@ -116,7 +126,9 @@ export const DESTINATIONS: DestinationEntry[] = [
         bestTime: 'Year-round; flamingo numbers vary with lake levels and are best checked closer to travel.',
         wildlife: ['Black Rhino', 'White Rhino', 'Lion', "Rothschild's Giraffe", 'Flamingo', 'Waterbuck'],
         relatedExperienceSlugs: ['best-of-kenya-safari', 'big-five-safari', 'highlights-of-kenya'],
-        image: 'https://images.unsplash.com/photo-1551009175-8a68da93d5f9?auto=format&fit=crop&w=1600&q=80',
+        image: '/images/destinations/lake-nakuru-card.webp',
+        hero: '/images/destinations/lake-nakuru-hero.webp',
+        thumb: '/images/thumbs/lake-nakuru.webp',
     },
     {
         slug: 'serengeti',
@@ -137,7 +149,9 @@ export const DESTINATIONS: DestinationEntry[] = [
         bestTime: 'Rewarding year-round, with different chapters of the migration in view — December to March for calving, June to October for the river crossings.',
         wildlife: ['Wildebeest', 'Lion', 'Cheetah', 'Leopard', 'Zebra', 'Nile Crocodile'],
         relatedExperienceSlugs: ['big-five-safari', 'best-of-tanzania'],
-        image: 'https://images.unsplash.com/photo-1547471080-7cc2caa01a7e?auto=format&fit=crop&w=1600&q=80',
+        image: '/images/destinations/serengeti-card.webp',
+        hero: '/images/destinations/serengeti-hero.webp',
+        thumb: '/images/thumbs/serengeti.webp',
     },
     {
         slug: 'ngorongoro-crater',
@@ -158,7 +172,9 @@ export const DESTINATIONS: DestinationEntry[] = [
         bestTime: "Rewarding year-round — the crater's resident wildlife makes any season worthwhile.",
         wildlife: ['Black Rhino', 'Lion', 'Elephant', 'Spotted Hyena', 'Flamingo', 'Buffalo'],
         relatedExperienceSlugs: ['big-five-safari', 'best-of-tanzania'],
-        image: 'https://images.unsplash.com/photo-1528360983277-13d401cdc186?auto=format&fit=crop&w=1600&q=80',
+        image: '/images/destinations/ngorongoro-crater-card.webp',
+        hero: '/images/destinations/ngorongoro-crater-hero.webp',
+        thumb: '/images/thumbs/ngorongoro-crater.webp',
     },
     {
         slug: 'tarangire',
@@ -179,7 +195,9 @@ export const DESTINATIONS: DestinationEntry[] = [
         bestTime: 'June to October, the dry season, when wildlife concentrates along the Tarangire River.',
         wildlife: ['Elephant', 'Lion', 'Fringe-eared Oryx', 'Leopard', 'Baobab-Dependent Birdlife', 'African Rock Python'],
         relatedExperienceSlugs: ['best-of-tanzania'],
-        image: 'https://images.unsplash.com/photo-1516026672447-2b2d76e74a3e?auto=format&fit=crop&w=1600&q=80',
+        image: '/images/destinations/tarangire-card.webp',
+        hero: '/images/destinations/tarangire-hero.webp',
+        thumb: '/images/thumbs/tarangire.webp',
     },
     {
         slug: 'zanzibar',
@@ -200,7 +218,9 @@ export const DESTINATIONS: DestinationEntry[] = [
         bestTime: 'June to October and December to February, avoiding the long and short rains.',
         wildlife: ['Green Sea Turtle', 'Zanzibar Red Colobus (Jozani Forest)', 'Reef Fish', 'Dolphin'],
         relatedExperienceSlugs: ['best-of-tanzania'],
-        image: 'https://images.unsplash.com/photo-1551909175-8a68da93d5f9?auto=format&fit=crop&w=1600&q=80',
+        image: '/images/destinations/zanzibar-card.webp',
+        hero: '/images/destinations/zanzibar-hero.webp',
+        thumb: '/images/thumbs/zanzibar.webp',
     },
 ]
 

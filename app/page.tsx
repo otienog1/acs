@@ -54,22 +54,22 @@ const CAMP_CATEGORIES = [
     {
         title: 'Private Tented Camps',
         body: 'Canvas suites set deep in exclusive conservancies, where the only sounds after dark belong to the bush itself.',
-        image: 'https://images.unsplash.com/photo-1504942579992-ba27b4ea5877?auto=format&fit=crop&w=900&q=80',
+        image: '/images/home/camp-private-tented.webp',
     },
     {
         title: 'Owner-Run Boutique Lodges',
         body: 'Small, personally run properties where the person who greets you at dinner is often the one who built the place.',
-        image: 'https://images.unsplash.com/photo-1564760055775-d63b17a55c44?auto=format&fit=crop&w=900&q=80',
+        image: '/images/home/camp-boutique-lodges.webp',
     },
     {
         title: 'Exclusive-Use Villas',
         body: 'Entire houses and their staff held for you alone — for families, milestone gatherings, and journeys that ask for privacy.',
-        image: 'https://images.unsplash.com/photo-1516026672447-2b2d76e74a3e?auto=format&fit=crop&w=900&q=80',
+        image: '/images/home/camp-villas.webp',
     },
     {
         title: 'Mobile Migration Camps',
         body: 'Seasonal camps that follow the herds across the Mara and Serengeti, moved by hand so the wilderness is left as it was found.',
-        image: 'https://images.unsplash.com/photo-1528360983277-13d401cdc186?auto=format&fit=crop&w=900&q=80',
+        image: '/images/home/camp-mobile-migration.webp',
     },
 ]
 
@@ -77,22 +77,22 @@ const TAILORED_EXPERIENCES = [
     {
         title: 'Photography Safaris',
         body: 'Vehicles built for glass, guides who know the light, and a pace set by the frame you are waiting for.',
-        image: 'https://images.unsplash.com/photo-1551909175-8a68da93d5f9?auto=format&fit=crop&w=900&q=80',
+        image: '/images/home/tailored-photography.webp',
     },
     {
         title: 'Family Safaris',
         body: 'Itineraries paced for younger travellers, with guides trained to make the bush as thrilling as it is safe.',
-        image: 'https://images.unsplash.com/photo-1547471080-7cc2caa01a7e?auto=format&fit=crop&w=900&q=80',
+        image: '/images/home/tailored-family.webp',
     },
     {
         title: 'Honeymoons & Private Journeys',
         body: 'Remote camps, candlelit bush dinners, and itineraries designed around two people and nothing else.',
-        image: 'https://images.unsplash.com/photo-1516426122078-c23e76319801?auto=format&fit=crop&w=900&q=80',
+        image: '/images/home/tailored-honeymoons.webp',
     },
     {
         title: 'Walking & Cultural Immersion',
         body: 'Slower mornings on foot with an armed naturalist, and time spent with the Maasai and Samburu families who call this land home.',
-        image: 'https://images.unsplash.com/photo-1528360983277-13d401cdc186?auto=format&fit=crop&w=900&q=80',
+        image: '/images/home/tailored-walking.webp',
     },
 ]
 
@@ -116,19 +116,19 @@ const JOURNAL_ENTRIES = [
         category: 'The Migration',
         title: 'Reading the Great Migration: A Guide to Timing Your Crossing',
         teaser: "The herds don't follow a calendar so much as the rain. Here is how our guides read the season.",
-        image: 'https://images.unsplash.com/photo-1516426122078-c23e76319801?auto=format&fit=crop&w=900&q=80',
+        image: '/images/journal/great-migration.webp',
     },
     {
         category: 'Conservation',
         title: "Inside the Conservancy Model: How Private Land Is Reshaping Kenya's Wildlife",
         teaser: 'A quiet land-lease system is doing more for Kenyan wildlife than any single park — and changing how we plan journeys.',
-        image: 'https://images.unsplash.com/photo-1547471080-7cc2caa01a7e?auto=format&fit=crop&w=900&q=80',
+        image: '/images/journal/conservancy-model.webp',
     },
     {
         category: 'Field Notes',
         title: 'Packing for the Bush: What a Decade of Safaris Has Taught Us',
         teaser: 'Fewer items, better chosen. Notes from guides who have packed this list more times than they can count.',
-        image: 'https://images.unsplash.com/photo-1528360983277-13d401cdc186?auto=format&fit=crop&w=900&q=80',
+        image: '/images/journal/packing-for-the-bush.webp',
     },
 ]
 
@@ -370,9 +370,10 @@ const HomePage = async () => {
                     <Reveal delay={150}>
                         <div className="relative aspect-[4/5] w-full overflow-hidden lg:aspect-auto lg:h-full">
                             <Image
-                                src="https://images.unsplash.com/photo-1516426122078-c23e76319801?auto=format&fit=crop&w=1200&q=80"
-                                alt="Elephant herd moving across a protected conservancy"
+                                src="/images/home/conservation.webp"
+                                alt="A lone bull elephant grazing on open grassland in a protected conservancy"
                                 fill
+                                sizes="(min-width: 1024px) 45vw, 100vw"
                                 style={{ objectFit: 'cover' }}
                             />
                         </div>
@@ -439,9 +440,10 @@ const HomePage = async () => {
             {/* ── 11. FINAL PREMIUM CTA ─────────────────────────────── */}
             <section className="relative mx-8 my-24 flex min-h-[520px] items-center overflow-hidden md:mx-16 lg:mx-24">
                 <Image
-                    src="https://images.unsplash.com/photo-1516026672447-2b2d76e74a3e?auto=format&fit=crop&w=1920&q=80"
-                    alt="Giraffe silhouetted against an East African sunset"
+                    src="/images/home/cta.webp"
+                    alt="A lilac-breasted roller taking flight over the bush"
                     fill
+                    sizes="100vw"
                     style={{ objectFit: 'cover' }}
                 />
                 <div className="absolute inset-0 bg-ink/60" />

@@ -1,0 +1,2684 @@
+{
+    "project": "Afircan citril",
+    "generatedAt": "2026-09-10T08:46:46.082Z",
+    "exportScale": 2,
+    "outputs": [
+        {
+            "slot": "photo-1516426122078-c23e76319801",
+            "group": "photo-1516426122078-c23e76319801",
+            "viewport": "desktop",
+            "file": "photo-1516426122078-c23e76319801.webp",
+            "css": [
+                1440,
+                900
+            ],
+            "pixels": [
+                1368,
+                855
+            ],
+            "asset": "assets/2d43eacc.jpg",
+            "crop": [
+                0,
+                0,
+                1368,
+                855
+            ],
+            "page": "/",
+            "viewportSize": [
+                1440,
+                900
+            ],
+            "position": [
+                0,
+                0
+            ],
+            "kind": "img",
+            "selector": "main > div > img",
+            "sourcePath": "/photo-1516426122078-c23e76319801",
+            "format": "webp",
+            "hints": {
+                "alt": "Elephant herd crossing open savannah at golden hour, Kenya",
+                "classes": [
+                    "bg-ink"
+                ]
+            }
+        },
+        {
+            "slot": "photo-1564760055775-d63b17a55c44",
+            "group": "photo-1564760055775-d63b17a55c44",
+            "viewport": "desktop",
+            "file": "photo-1564760055775-d63b17a55c44.webp",
+            "css": [
+                288,
+                360
+            ],
+            "pixels": [
+                576,
+                720
+            ],
+            "asset": "assets/9b2356c2.jpg",
+            "crop": [
+                13,
+                0,
+                682,
+                853
+            ],
+            "page": "/",
+            "viewportSize": [
+                1440,
+                900
+            ],
+            "position": [
+                96,
+                1235
+            ],
+            "kind": "img",
+            "selector": "main > section:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > a > div:nth-of-type(1) > img",
+            "sourcePath": "/photo-1564760055775-d63b17a55c44",
+            "format": "webp",
+            "hints": {
+                "alt": "Best of Kenya Safari",
+                "classes": [
+                    "transition-transform",
+                    "duration-[1100ms]",
+                    "ease-editorial",
+                    "group-hover:scale-110"
+                ],
+                "heading": "Journeys, Composed — Not Packaged"
+            }
+        },
+        {
+            "slot": "photo-1516426122078-c23e76319801-2",
+            "group": "photo-1516426122078-c23e76319801-2",
+            "viewport": "desktop",
+            "file": "photo-1516426122078-c23e76319801.webp",
+            "css": [
+                288,
+                360
+            ],
+            "pixels": [
+                576,
+                720
+            ],
+            "asset": "assets/8c615ec8.jpg",
+            "crop": [
+                0,
+                5,
+                912,
+                1140
+            ],
+            "page": "/",
+            "viewportSize": [
+                1440,
+                900
+            ],
+            "position": [
+                416,
+                1235
+            ],
+            "kind": "img",
+            "selector": "main > section:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > a > div:nth-of-type(1) > img",
+            "sourcePath": "/photo-1516426122078-c23e76319801",
+            "format": "webp",
+            "hints": {
+                "alt": "Big Five Safari",
+                "classes": [
+                    "transition-transform",
+                    "duration-[1100ms]",
+                    "ease-editorial",
+                    "group-hover:scale-110"
+                ],
+                "heading": "Journeys, Composed — Not Packaged"
+            }
+        },
+        {
+            "slot": "photo-1528360983277-13d401cdc186",
+            "group": "photo-1528360983277-13d401cdc186",
+            "viewport": "desktop",
+            "file": "photo-1528360983277-13d401cdc186.webp",
+            "css": [
+                288,
+                360
+            ],
+            "pixels": [
+                576,
+                720
+            ],
+            "asset": "assets/e8cc2735.jpg",
+            "crop": [
+                124,
+                0,
+                730,
+                913
+            ],
+            "page": "/",
+            "viewportSize": [
+                1440,
+                900
+            ],
+            "position": [
+                1056,
+                1235
+            ],
+            "kind": "img",
+            "selector": "main > section:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(4) > a > div:nth-of-type(1) > img",
+            "sourcePath": "/photo-1528360983277-13d401cdc186",
+            "format": "webp",
+            "hints": {
+                "alt": "Best of Tanzania",
+                "classes": [
+                    "transition-transform",
+                    "duration-[1100ms]",
+                    "ease-editorial",
+                    "group-hover:scale-110"
+                ],
+                "heading": "Journeys, Composed — Not Packaged"
+            }
+        },
+        {
+            "slot": "photo-1516026672447-2b2d76e74a3e",
+            "group": "photo-1516026672447-2b2d76e74a3e",
+            "viewport": "desktop",
+            "file": "photo-1516026672447-2b2d76e74a3e.webp",
+            "css": [
+                618,
+                558
+            ],
+            "pixels": [
+                934,
+                843
+            ],
+            "asset": "assets/3abbf1b6.jpg",
+            "crop": [
+                42,
+                8,
+                934,
+                843
+            ],
+            "page": "/",
+            "viewportSize": [
+                1440,
+                900
+            ],
+            "position": [
+                726,
+                2174
+            ],
+            "kind": "img",
+            "selector": "main > section:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(2) > a > img",
+            "sourcePath": "/photo-1516026672447-2b2d76e74a3e",
+            "format": "webp",
+            "hints": {
+                "alt": "Tanzania",
+                "classes": [
+                    "transition-transform",
+                    "duration-[1300ms]",
+                    "ease-editorial",
+                    "group-hover:scale-105"
+                ],
+                "heading": "Two Landscapes, One Standard of Craft"
+            }
+        },
+        {
+            "slot": "photo-1551009175-8a68da93d5f9",
+            "group": "photo-1551009175-8a68da93d5f9",
+            "viewport": "desktop",
+            "file": "photo-1551009175-8a68da93d5f9.webp",
+            "css": [
+                618,
+                558
+            ],
+            "pixels": [
+                945,
+                853
+            ],
+            "asset": "assets/71814503.jpg",
+            "crop": [
+                263,
+                0,
+                945,
+                853
+            ],
+            "page": "/",
+            "viewportSize": [
+                1440,
+                900
+            ],
+            "position": [
+                96,
+                2174
+            ],
+            "kind": "img",
+            "selector": "main > section:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > a > img",
+            "sourcePath": "/photo-1551009175-8a68da93d5f9",
+            "format": "webp",
+            "hints": {
+                "alt": "Kenya",
+                "classes": [
+                    "transition-transform",
+                    "duration-[1300ms]",
+                    "ease-editorial",
+                    "group-hover:scale-105"
+                ],
+                "heading": "Two Landscapes, One Standard of Craft"
+            }
+        },
+        {
+            "slot": "photo-1504942579992-ba27b4ea5877",
+            "group": "photo-1504942579992-ba27b4ea5877",
+            "viewport": "desktop",
+            "file": "photo-1504942579992-ba27b4ea5877.webp",
+            "css": [
+                288,
+                384
+            ],
+            "pixels": [
+                338,
+                451
+            ],
+            "asset": "assets/dcb6ada1.jpg",
+            "crop": [
+                116,
+                0,
+                338,
+                451
+            ],
+            "page": "/",
+            "viewportSize": [
+                1440,
+                900
+            ],
+            "position": [
+                96,
+                4053
+            ],
+            "kind": "img",
+            "selector": "main > section:nth-of-type(4) > div:nth-of-type(2) > div:nth-of-type(1) > div > div > img",
+            "sourcePath": "/photo-1504942579992-ba27b4ea5877",
+            "format": "webp",
+            "hints": {
+                "alt": "Private Tented Camps",
+                "classes": [
+                    "transition-transform",
+                    "duration-[1100ms]",
+                    "ease-editorial",
+                    "group-hover:scale-110"
+                ],
+                "heading": "Camps Chosen, Not Just Booked"
+            }
+        },
+        {
+            "slot": "photo-1516026672447-2b2d76e74a3e-2",
+            "group": "photo-1516026672447-2b2d76e74a3e-2",
+            "viewport": "desktop",
+            "file": "photo-1516026672447-2b2d76e74a3e.webp",
+            "css": [
+                288,
+                384
+            ],
+            "pixels": [
+                576,
+                768
+            ],
+            "asset": "assets/699d6d4d.jpg",
+            "crop": [
+                853,
+                0,
+                1251,
+                1668
+            ],
+            "page": "/",
+            "viewportSize": [
+                1440,
+                900
+            ],
+            "position": [
+                736,
+                4053
+            ],
+            "kind": "img",
+            "selector": "main > section:nth-of-type(4) > div:nth-of-type(2) > div:nth-of-type(3) > div > div > img",
+            "sourcePath": "/photo-1516026672447-2b2d76e74a3e",
+            "format": "webp",
+            "hints": {
+                "alt": "Exclusive-Use Villas",
+                "classes": [
+                    "transition-transform",
+                    "duration-[1100ms]",
+                    "ease-editorial",
+                    "group-hover:scale-110"
+                ],
+                "heading": "Camps Chosen, Not Just Booked"
+            }
+        },
+        {
+            "slot": "photo-1528360983277-13d401cdc186-2",
+            "group": "photo-1528360983277-13d401cdc186-2",
+            "viewport": "desktop",
+            "file": "photo-1528360983277-13d401cdc186.webp",
+            "css": [
+                288,
+                384
+            ],
+            "pixels": [
+                512,
+                683
+            ],
+            "asset": "assets/b79afc32.jpg",
+            "crop": [
+                256,
+                0,
+                512,
+                683
+            ],
+            "page": "/",
+            "viewportSize": [
+                1440,
+                900
+            ],
+            "position": [
+                1056,
+                4053
+            ],
+            "kind": "img",
+            "selector": "main > section:nth-of-type(4) > div:nth-of-type(2) > div:nth-of-type(4) > div > div > img",
+            "sourcePath": "/photo-1528360983277-13d401cdc186",
+            "format": "webp",
+            "hints": {
+                "alt": "Mobile Migration Camps",
+                "classes": [
+                    "transition-transform",
+                    "duration-[1100ms]",
+                    "ease-editorial",
+                    "group-hover:scale-110"
+                ],
+                "heading": "Camps Chosen, Not Just Booked"
+            }
+        },
+        {
+            "slot": "photo-1564760055775-d63b17a55c44-2",
+            "group": "photo-1564760055775-d63b17a55c44-2",
+            "viewport": "desktop",
+            "file": "photo-1564760055775-d63b17a55c44.webp",
+            "css": [
+                288,
+                384
+            ],
+            "pixels": [
+                576,
+                768
+            ],
+            "asset": "assets/d7a50ae2.jpg",
+            "crop": [
+                745,
+                0,
+                958,
+                1277
+            ],
+            "page": "/",
+            "viewportSize": [
+                1440,
+                900
+            ],
+            "position": [
+                416,
+                4053
+            ],
+            "kind": "img",
+            "selector": "main > section:nth-of-type(4) > div:nth-of-type(2) > div:nth-of-type(2) > div > div > img",
+            "sourcePath": "/photo-1564760055775-d63b17a55c44",
+            "format": "webp",
+            "hints": {
+                "alt": "Owner-Run Boutique Lodges",
+                "classes": [
+                    "transition-transform",
+                    "duration-[1100ms]",
+                    "ease-editorial",
+                    "group-hover:scale-110"
+                ],
+                "heading": "Camps Chosen, Not Just Booked"
+            }
+        },
+        {
+            "slot": "photo-1551909175-8a68da93d5f9",
+            "group": "photo-1551909175-8a68da93d5f9",
+            "viewport": "desktop",
+            "file": "photo-1551909175-8a68da93d5f9.webp",
+            "css": [
+                288,
+                384
+            ],
+            "pixels": [
+                576,
+                768
+            ],
+            "asset": "assets/c5b5126c.jpg",
+            "crop": [
+                394,
+                0,
+                613,
+                817
+            ],
+            "page": "/",
+            "viewportSize": [
+                1440,
+                900
+            ],
+            "position": [
+                96,
+                5064
+            ],
+            "kind": "img",
+            "selector": "main > section:nth-of-type(5) > div > div:nth-of-type(2) > div:nth-of-type(1) > div > div > img",
+            "sourcePath": "/photo-1551909175-8a68da93d5f9",
+            "format": "webp",
+            "hints": {
+                "alt": "Photography Safaris",
+                "classes": [
+                    "transition-transform",
+                    "duration-[1100ms]",
+                    "ease-editorial",
+                    "group-hover:scale-110"
+                ],
+                "heading": "Every Journey Begins With a Question: What Do You Want to Feel?"
+            }
+        },
+        {
+            "slot": "photo-1516426122078-c23e76319801-3",
+            "group": "photo-1516426122078-c23e76319801-3",
+            "viewport": "desktop",
+            "file": "photo-1516426122078-c23e76319801.webp",
+            "css": [
+                288,
+                384
+            ],
+            "pixels": [
+                576,
+                768
+            ],
+            "asset": "assets/fb069855.jpg",
+            "crop": [
+                404,
+                0,
+                800,
+                1067
+            ],
+            "page": "/",
+            "viewportSize": [
+                1440,
+                900
+            ],
+            "position": [
+                736,
+                5064
+            ],
+            "kind": "img",
+            "selector": "main > section:nth-of-type(5) > div > div:nth-of-type(2) > div:nth-of-type(3) > div > div > img",
+            "sourcePath": "/photo-1516426122078-c23e76319801",
+            "format": "webp",
+            "hints": {
+                "alt": "Honeymoons & Private Journeys",
+                "classes": [
+                    "transition-transform",
+                    "duration-[1100ms]",
+                    "ease-editorial",
+                    "group-hover:scale-110"
+                ],
+                "heading": "Every Journey Begins With a Question: What Do You Want to Feel?"
+            }
+        },
+        {
+            "slot": "photo-1516426122078-c23e76319801-4",
+            "group": "photo-1516426122078-c23e76319801-4",
+            "viewport": "desktop",
+            "file": "photo-1516426122078-c23e76319801.webp",
+            "css": [
+                576,
+                480
+            ],
+            "pixels": [
+                1096,
+                912
+            ],
+            "asset": "assets/ea2237db.jpg",
+            "crop": [
+                65,
+                0,
+                1096,
+                912
+            ],
+            "page": "/",
+            "viewportSize": [
+                1440,
+                900
+            ],
+            "position": [
+                768,
+                5940
+            ],
+            "kind": "img",
+            "selector": "main > section:nth-of-type(6) > div > div:nth-of-type(2) > div > img",
+            "sourcePath": "/photo-1516426122078-c23e76319801",
+            "format": "webp",
+            "hints": {
+                "alt": "Elephant herd moving across a protected conservancy",
+                "classes": [],
+                "heading": "Travel That Leaves the Land Better Held"
+            }
+        },
+        {
+            "slot": "photo-1547471080-7cc2caa01a7e-3",
+            "group": "photo-1547471080-7cc2caa01a7e-3",
+            "viewport": "desktop",
+            "file": "photo-1547471080-7cc2caa01a7e.webp",
+            "css": [
+                389,
+                292
+            ],
+            "pixels": [
+                779,
+                584
+            ],
+            "asset": "assets/60255fd3.jpg",
+            "crop": [
+                71,
+                0,
+                1137,
+                853
+            ],
+            "page": "/",
+            "viewportSize": [
+                1440,
+                900
+            ],
+            "position": [
+                525,
+                7742
+            ],
+            "kind": "img",
+            "selector": "main > section:nth-of-type(9) > div:nth-of-type(2) > div:nth-of-type(2) > article > div > img",
+            "sourcePath": "/photo-1547471080-7cc2caa01a7e",
+            "format": "webp",
+            "hints": {
+                "alt": "Inside the Conservancy Model: How Private Land Is Reshaping Kenya's Wildlife",
+                "classes": [],
+                "heading": "Inside the Conservancy Model: How Private Land Is Reshaping Kenya's Wildlife"
+            }
+        },
+        {
+            "slot": "photo-1528360983277-13d401cdc186-4",
+            "group": "photo-1528360983277-13d401cdc186-4",
+            "viewport": "desktop",
+            "file": "photo-1528360983277-13d401cdc186.webp",
+            "css": [
+                389,
+                292
+            ],
+            "pixels": [
+                779,
+                584
+            ],
+            "asset": "assets/639fb7a3.jpg",
+            "crop": [
+                76,
+                0,
+                1216,
+                912
+            ],
+            "page": "/",
+            "viewportSize": [
+                1440,
+                900
+            ],
+            "position": [
+                955,
+                7742
+            ],
+            "kind": "img",
+            "selector": "main > section:nth-of-type(9) > div:nth-of-type(2) > div:nth-of-type(3) > article > div > img",
+            "sourcePath": "/photo-1528360983277-13d401cdc186",
+            "format": "webp",
+            "hints": {
+                "alt": "Packing for the Bush: What a Decade of Safaris Has Taught Us",
+                "classes": [],
+                "heading": "Packing for the Bush: What a Decade of Safaris Has Taught Us"
+            }
+        },
+        {
+            "slot": "photo-1516026672447-2b2d76e74a3e-3",
+            "group": "photo-1516026672447-2b2d76e74a3e-3",
+            "viewport": "desktop",
+            "file": "photo-1516026672447-2b2d76e74a3e.webp",
+            "css": [
+                1248,
+                520
+            ],
+            "pixels": [
+                1280,
+                533
+            ],
+            "asset": "assets/f7c33c9d.jpg",
+            "crop": [
+                0,
+                107,
+                1280,
+                533
+            ],
+            "page": "/",
+            "viewportSize": [
+                1440,
+                900
+            ],
+            "position": [
+                96,
+                8444
+            ],
+            "kind": "img",
+            "selector": "main > section:nth-of-type(10) > img",
+            "sourcePath": "/photo-1516026672447-2b2d76e74a3e",
+            "format": "webp",
+            "hints": {
+                "alt": "Giraffe silhouetted against an East African sunset",
+                "classes": [],
+                "heading": "Your Safari, Considered From First Enquiry"
+            }
+        },
+        {
+            "slot": "photo-1547471080-7cc2caa01a7e",
+            "group": "photo-1547471080-7cc2caa01a7e",
+            "viewport": "desktop",
+            "file": "photo-1547471080-7cc2caa01a7e.webp",
+            "css": [
+                288,
+                360
+            ],
+            "pixels": [
+                576,
+                720
+            ],
+            "asset": "assets/81ae5814.jpg",
+            "crop": [
+                319,
+                0,
+                730,
+                913
+            ],
+            "page": "/",
+            "viewportSize": [
+                1440,
+                900
+            ],
+            "position": [
+                736,
+                1235
+            ],
+            "kind": "img",
+            "selector": "main > section:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(3) > a > div:nth-of-type(1) > img",
+            "sourcePath": "/photo-1547471080-7cc2caa01a7e",
+            "format": "webp",
+            "hints": {
+                "alt": "Highlights of Kenya",
+                "classes": [
+                    "transition-transform",
+                    "duration-[1100ms]",
+                    "ease-editorial",
+                    "group-hover:scale-110"
+                ],
+                "heading": "Journeys, Composed — Not Packaged"
+            }
+        },
+        {
+            "slot": "photo-1547471080-7cc2caa01a7e-2",
+            "group": "photo-1547471080-7cc2caa01a7e-2",
+            "viewport": "desktop",
+            "file": "photo-1547471080-7cc2caa01a7e.webp",
+            "css": [
+                288,
+                384
+            ],
+            "pixels": [
+                576,
+                768
+            ],
+            "asset": "assets/ee1aa37b.webp",
+            "crop": [
+                837,
+                0,
+                1250,
+                1667
+            ],
+            "page": "/",
+            "viewportSize": [
+                1440,
+                900
+            ],
+            "position": [
+                416,
+                5064
+            ],
+            "kind": "img",
+            "selector": "main > section:nth-of-type(5) > div > div:nth-of-type(2) > div:nth-of-type(2) > div > div > img",
+            "sourcePath": "/photo-1547471080-7cc2caa01a7e",
+            "format": "webp",
+            "hints": {
+                "alt": "Family Safaris",
+                "classes": [
+                    "transition-transform",
+                    "duration-[1100ms]",
+                    "ease-editorial",
+                    "group-hover:scale-110"
+                ],
+                "heading": "Every Journey Begins With a Question: What Do You Want to Feel?"
+            }
+        },
+        {
+            "slot": "photo-1528360983277-13d401cdc186-3",
+            "group": "photo-1528360983277-13d401cdc186-3",
+            "viewport": "desktop",
+            "file": "photo-1528360983277-13d401cdc186.webp",
+            "css": [
+                288,
+                384
+            ],
+            "pixels": [
+                576,
+                768
+            ],
+            "asset": "assets/90751cee.jpg",
+            "crop": [
+                239,
+                0,
+                600,
+                800
+            ],
+            "page": "/",
+            "viewportSize": [
+                1440,
+                900
+            ],
+            "position": [
+                1056,
+                5064
+            ],
+            "kind": "img",
+            "selector": "main > section:nth-of-type(5) > div > div:nth-of-type(2) > div:nth-of-type(4) > div > div > img",
+            "sourcePath": "/photo-1528360983277-13d401cdc186",
+            "format": "webp",
+            "hints": {
+                "alt": "Walking & Cultural Immersion",
+                "classes": [
+                    "transition-transform",
+                    "duration-[1100ms]",
+                    "ease-editorial",
+                    "group-hover:scale-110"
+                ],
+                "heading": "Every Journey Begins With a Question: What Do You Want to Feel?"
+            }
+        },
+        {
+            "slot": "photo-1516426122078-c23e76319801-5",
+            "group": "photo-1516426122078-c23e76319801-5",
+            "viewport": "desktop",
+            "file": "photo-1516426122078-c23e76319801.webp",
+            "css": [
+                389,
+                292
+            ],
+            "pixels": [
+                779,
+                584
+            ],
+            "asset": "assets/ea2237db.jpg",
+            "crop": [
+                76,
+                0,
+                1216,
+                912
+            ],
+            "page": "/",
+            "viewportSize": [
+                1440,
+                900
+            ],
+            "position": [
+                96,
+                7742
+            ],
+            "kind": "img",
+            "selector": "main > section:nth-of-type(9) > div:nth-of-type(2) > div:nth-of-type(1) > article > div > img",
+            "sourcePath": "/photo-1516426122078-c23e76319801",
+            "format": "webp",
+            "hints": {
+                "alt": "Reading the Great Migration: A Guide to Timing Your Crossing",
+                "classes": [],
+                "heading": "Reading the Great Migration: A Guide to Timing Your Crossing"
+            }
+        },
+        {
+            "slot": "photo-1516426122078-c23e76319801",
+            "group": "photo-1516426122078-c23e76319801",
+            "viewport": "desktop",
+            "file": "photo-1516426122078-c23e76319801.webp",
+            "css": [
+                1440,
+                630
+            ],
+            "pixels": [
+                1368,
+                599
+            ],
+            "asset": "assets/ad0e8db9.jpg",
+            "crop": [
+                0,
+                181,
+                1368,
+                599
+            ],
+            "page": "/about",
+            "viewportSize": [
+                1440,
+                900
+            ],
+            "position": [
+                0,
+                72
+            ],
+            "kind": "img",
+            "selector": "main > div > img",
+            "sourcePath": "/photo-1516426122078-c23e76319801",
+            "format": "webp",
+            "hints": {
+                "alt": "African Citril Safaris",
+                "classes": []
+            }
+        },
+        {
+            "slot": "photo-1547471080-7cc2caa01a7e",
+            "group": "photo-1547471080-7cc2caa01a7e",
+            "viewport": "desktop",
+            "file": "photo-1547471080-7cc2caa01a7e.webp",
+            "css": [
+                584,
+                520
+            ],
+            "pixels": [
+                1024,
+                912
+            ],
+            "asset": "assets/7f3d5377.jpg",
+            "crop": [
+                185,
+                0,
+                1024,
+                912
+            ],
+            "page": "/about",
+            "viewportSize": [
+                1440,
+                900
+            ],
+            "position": [
+                760,
+                1341
+            ],
+            "kind": "img",
+            "selector": "main > section:nth-of-type(2) > div > div > div:nth-of-type(2) > div > img",
+            "sourcePath": "/photo-1547471080-7cc2caa01a7e",
+            "format": "webp",
+            "hints": {
+                "alt": "Our story — African Citril Safaris",
+                "classes": [],
+                "heading": "A Decade in the Field"
+            }
+        },
+        {
+            "slot": "photo-1547471080-7cc2caa01a7e-2",
+            "group": "photo-1547471080-7cc2caa01a7e-2",
+            "viewport": "desktop",
+            "file": "photo-1547471080-7cc2caa01a7e.webp",
+            "css": [
+                1248,
+                420
+            ],
+            "pixels": [
+                1368,
+                460
+            ],
+            "asset": "assets/48eaf606.jpg",
+            "crop": [
+                0,
+                282,
+                1368,
+                460
+            ],
+            "page": "/about",
+            "viewportSize": [
+                1440,
+                900
+            ],
+            "position": [
+                96,
+                3924
+            ],
+            "kind": "img",
+            "selector": "main > section:nth-of-type(6) > img",
+            "sourcePath": "/photo-1547471080-7cc2caa01a7e",
+            "format": "webp",
+            "hints": {
+                "alt": "Sundowner over the plains",
+                "classes": [],
+                "heading": "A Team That Knows This Land — Ready to Plan Yours"
+            }
+        },
+        {
+            "slot": "photo-1528360983277-13d401cdc186",
+            "group": "photo-1528360983277-13d401cdc186",
+            "viewport": "desktop",
+            "file": "photo-1528360983277-13d401cdc186.webp",
+            "css": [
+                1440,
+                630
+            ],
+            "pixels": [
+                1370,
+                599
+            ],
+            "asset": "assets/b821275b.jpg",
+            "crop": [
+                0,
+                178,
+                1370,
+                599
+            ],
+            "page": "/destinations",
+            "viewportSize": [
+                1440,
+                900
+            ],
+            "position": [
+                0,
+                72
+            ],
+            "kind": "img",
+            "selector": "main > div:nth-of-type(1) > img",
+            "sourcePath": "/photo-1528360983277-13d401cdc186",
+            "format": "webp",
+            "hints": {
+                "alt": "African Citril Safaris destinations across Kenya and Tanzania",
+                "classes": []
+            }
+        },
+        {
+            "slot": "photo-1551009175-8a68da93d5f9",
+            "group": "photo-1551009175-8a68da93d5f9",
+            "viewport": "desktop",
+            "file": "photo-1551009175-8a68da93d5f9.webp",
+            "css": [
+                720,
+                560
+            ],
+            "pixels": [
+                1173,
+                912
+            ],
+            "asset": "assets/2e6451e3.jpg",
+            "crop": [
+                147,
+                0,
+                1173,
+                912
+            ],
+            "page": "/destinations",
+            "viewportSize": [
+                1440,
+                900
+            ],
+            "position": [
+                0,
+                845
+            ],
+            "kind": "img",
+            "selector": "main > section:nth-of-type(1) > div > div:nth-of-type(1) > img",
+            "sourcePath": "/photo-1551009175-8a68da93d5f9",
+            "format": "webp",
+            "hints": {
+                "alt": "Kenya — African Citril Safaris",
+                "classes": [],
+                "heading": "Kenya"
+            }
+        },
+        {
+            "slot": "photo-1516026672447-2b2d76e74a3e",
+            "group": "photo-1516026672447-2b2d76e74a3e",
+            "viewport": "desktop",
+            "file": "photo-1516026672447-2b2d76e74a3e.webp",
+            "css": [
+                720,
+                560
+            ],
+            "pixels": [
+                1173,
+                912
+            ],
+            "asset": "assets/71ce418c.jpg",
+            "crop": [
+                160,
+                0,
+                1173,
+                912
+            ],
+            "page": "/destinations",
+            "viewportSize": [
+                1440,
+                900
+            ],
+            "position": [
+                720,
+                1405
+            ],
+            "kind": "img",
+            "selector": "main > section:nth-of-type(2) > div > div:nth-of-type(1) > img",
+            "sourcePath": "/photo-1516026672447-2b2d76e74a3e",
+            "format": "webp",
+            "hints": {
+                "alt": "Tanzania — African Citril Safaris",
+                "classes": [],
+                "heading": "Tanzania"
+            }
+        },
+        {
+            "slot": "photo-1551909175-8a68da93d5f9",
+            "group": "photo-1551909175-8a68da93d5f9",
+            "viewport": "desktop",
+            "file": "photo-1551909175-8a68da93d5f9.webp",
+            "css": [
+                288,
+                360
+            ],
+            "pixels": [
+                576,
+                720
+            ],
+            "asset": "assets/25148284.jpg",
+            "crop": [
+                225,
+                0,
+                682,
+                853
+            ],
+            "page": "/destinations",
+            "viewportSize": [
+                1440,
+                900
+            ],
+            "position": [
+                96,
+                2267
+            ],
+            "kind": "img",
+            "selector": "main > section:nth-of-type(3) > div > div:nth-of-type(2) > div > div:nth-of-type(1) > a > div > img",
+            "sourcePath": "/photo-1551909175-8a68da93d5f9",
+            "format": "webp",
+            "hints": {
+                "alt": "Masai Mara",
+                "classes": [
+                    "transition-transform",
+                    "duration-[1100ms]",
+                    "ease-editorial",
+                    "group-hover:scale-110"
+                ],
+                "heading": "Nine Places We Know Well"
+            }
+        },
+        {
+            "slot": "photo-1516426122078-c23e76319801",
+            "group": "photo-1516426122078-c23e76319801",
+            "viewport": "desktop",
+            "file": "photo-1516426122078-c23e76319801.webp",
+            "css": [
+                288,
+                360
+            ],
+            "pixels": [
+                576,
+                720
+            ],
+            "asset": "assets/31209ba7.jpg",
+            "crop": [
+                105,
+                0,
+                682,
+                853
+            ],
+            "page": "/destinations",
+            "viewportSize": [
+                1440,
+                900
+            ],
+            "position": [
+                416,
+                2267
+            ],
+            "kind": "img",
+            "selector": "main > section:nth-of-type(3) > div > div:nth-of-type(2) > div > div:nth-of-type(2) > a > div > img",
+            "sourcePath": "/photo-1516426122078-c23e76319801",
+            "format": "webp",
+            "hints": {
+                "alt": "Amboseli",
+                "classes": [
+                    "transition-transform",
+                    "duration-[1100ms]",
+                    "ease-editorial",
+                    "group-hover:scale-110"
+                ],
+                "heading": "Nine Places We Know Well"
+            }
+        },
+        {
+            "slot": "photo-1564760055775-d63b17a55c44",
+            "group": "photo-1564760055775-d63b17a55c44",
+            "viewport": "desktop",
+            "file": "photo-1564760055775-d63b17a55c44.webp",
+            "css": [
+                288,
+                360
+            ],
+            "pixels": [
+                576,
+                720
+            ],
+            "asset": "assets/215b27ae.jpg",
+            "crop": [
+                159,
+                0,
+                730,
+                913
+            ],
+            "page": "/destinations",
+            "viewportSize": [
+                1440,
+                900
+            ],
+            "position": [
+                736,
+                2267
+            ],
+            "kind": "img",
+            "selector": "main > section:nth-of-type(3) > div > div:nth-of-type(2) > div > div:nth-of-type(3) > a > div > img",
+            "sourcePath": "/photo-1564760055775-d63b17a55c44",
+            "format": "webp",
+            "hints": {
+                "alt": "Samburu",
+                "classes": [
+                    "transition-transform",
+                    "duration-[1100ms]",
+                    "ease-editorial",
+                    "group-hover:scale-110"
+                ],
+                "heading": "Nine Places We Know Well"
+            }
+        },
+        {
+            "slot": "photo-1504942579992-ba27b4ea5877",
+            "group": "photo-1504942579992-ba27b4ea5877",
+            "viewport": "desktop",
+            "file": "photo-1504942579992-ba27b4ea5877.webp",
+            "css": [
+                288,
+                360
+            ],
+            "pixels": [
+                576,
+                720
+            ],
+            "asset": "assets/2b301e6c.jpg",
+            "crop": [
+                386,
+                0,
+                682,
+                853
+            ],
+            "page": "/destinations",
+            "viewportSize": [
+                1440,
+                900
+            ],
+            "position": [
+                1056,
+                2267
+            ],
+            "kind": "img",
+            "selector": "main > section:nth-of-type(3) > div > div:nth-of-type(2) > div > div:nth-of-type(4) > a > div > img",
+            "sourcePath": "/photo-1504942579992-ba27b4ea5877",
+            "format": "webp",
+            "hints": {
+                "alt": "Laikipia",
+                "classes": [
+                    "transition-transform",
+                    "duration-[1100ms]",
+                    "ease-editorial",
+                    "group-hover:scale-110"
+                ],
+                "heading": "Nine Places We Know Well"
+            }
+        },
+        {
+            "slot": "photo-1551009175-8a68da93d5f9-2",
+            "group": "photo-1551009175-8a68da93d5f9-2",
+            "viewport": "desktop",
+            "file": "photo-1551009175-8a68da93d5f9.webp",
+            "css": [
+                288,
+                360
+            ],
+            "pixels": [
+                576,
+                720
+            ],
+            "asset": "assets/4243401c.jpg",
+            "crop": [
+                401,
+                0,
+                682,
+                853
+            ],
+            "page": "/destinations",
+            "viewportSize": [
+                1440,
+                900
+            ],
+            "position": [
+                96,
+                2766
+            ],
+            "kind": "img",
+            "selector": "main > section:nth-of-type(3) > div > div:nth-of-type(2) > div > div:nth-of-type(5) > a > div > img",
+            "sourcePath": "/photo-1551009175-8a68da93d5f9",
+            "format": "webp",
+            "hints": {
+                "alt": "Lake Nakuru",
+                "classes": [
+                    "transition-transform",
+                    "duration-[1100ms]",
+                    "ease-editorial",
+                    "group-hover:scale-110"
+                ],
+                "heading": "Nine Places We Know Well"
+            }
+        },
+        {
+            "slot": "photo-1547471080-7cc2caa01a7e",
+            "group": "photo-1547471080-7cc2caa01a7e",
+            "viewport": "desktop",
+            "file": "photo-1547471080-7cc2caa01a7e.webp",
+            "css": [
+                288,
+                360
+            ],
+            "pixels": [
+                576,
+                720
+            ],
+            "asset": "assets/8f5d4312.jpg",
+            "crop": [
+                319,
+                0,
+                730,
+                913
+            ],
+            "page": "/destinations",
+            "viewportSize": [
+                1440,
+                900
+            ],
+            "position": [
+                96,
+                3321
+            ],
+            "kind": "img",
+            "selector": "main > section:nth-of-type(3) > div > div:nth-of-type(3) > div > div:nth-of-type(1) > a > div > img",
+            "sourcePath": "/photo-1547471080-7cc2caa01a7e",
+            "format": "webp",
+            "hints": {
+                "alt": "Serengeti",
+                "classes": [
+                    "transition-transform",
+                    "duration-[1100ms]",
+                    "ease-editorial",
+                    "group-hover:scale-110"
+                ],
+                "heading": "Nine Places We Know Well"
+            }
+        },
+        {
+            "slot": "photo-1528360983277-13d401cdc186-2",
+            "group": "photo-1528360983277-13d401cdc186-2",
+            "viewport": "desktop",
+            "file": "photo-1528360983277-13d401cdc186.webp",
+            "css": [
+                288,
+                360
+            ],
+            "pixels": [
+                576,
+                720
+            ],
+            "asset": "assets/69318ea4.jpg",
+            "crop": [
+                319,
+                0,
+                730,
+                913
+            ],
+            "page": "/destinations",
+            "viewportSize": [
+                1440,
+                900
+            ],
+            "position": [
+                416,
+                3321
+            ],
+            "kind": "img",
+            "selector": "main > section:nth-of-type(3) > div > div:nth-of-type(3) > div > div:nth-of-type(2) > a > div > img",
+            "sourcePath": "/photo-1528360983277-13d401cdc186",
+            "format": "webp",
+            "hints": {
+                "alt": "Ngorongoro Crater",
+                "classes": [
+                    "transition-transform",
+                    "duration-[1100ms]",
+                    "ease-editorial",
+                    "group-hover:scale-110"
+                ],
+                "heading": "Nine Places We Know Well"
+            }
+        },
+        {
+            "slot": "photo-1516026672447-2b2d76e74a3e-2",
+            "group": "photo-1516026672447-2b2d76e74a3e-2",
+            "viewport": "desktop",
+            "file": "photo-1516026672447-2b2d76e74a3e.webp",
+            "css": [
+                288,
+                360
+            ],
+            "pixels": [
+                576,
+                720
+            ],
+            "asset": "assets/d45447ad.jpg",
+            "crop": [
+                386,
+                0,
+                730,
+                913
+            ],
+            "page": "/destinations",
+            "viewportSize": [
+                1440,
+                900
+            ],
+            "position": [
+                736,
+                3321
+            ],
+            "kind": "img",
+            "selector": "main > section:nth-of-type(3) > div > div:nth-of-type(3) > div > div:nth-of-type(3) > a > div > img",
+            "sourcePath": "/photo-1516026672447-2b2d76e74a3e",
+            "format": "webp",
+            "hints": {
+                "alt": "Tarangire",
+                "classes": [
+                    "transition-transform",
+                    "duration-[1100ms]",
+                    "ease-editorial",
+                    "group-hover:scale-110"
+                ],
+                "heading": "Nine Places We Know Well"
+            }
+        },
+        {
+            "slot": "photo-1551909175-8a68da93d5f9-2",
+            "group": "photo-1551909175-8a68da93d5f9-2",
+            "viewport": "desktop",
+            "file": "photo-1551909175-8a68da93d5f9.webp",
+            "css": [
+                288,
+                360
+            ],
+            "pixels": [
+                576,
+                720
+            ],
+            "asset": "assets/4f119287.jpg",
+            "crop": [
+                319,
+                0,
+                730,
+                913
+            ],
+            "page": "/destinations",
+            "viewportSize": [
+                1440,
+                900
+            ],
+            "position": [
+                1056,
+                3321
+            ],
+            "kind": "img",
+            "selector": "main > section:nth-of-type(3) > div > div:nth-of-type(3) > div > div:nth-of-type(4) > a > div > img",
+            "sourcePath": "/photo-1551909175-8a68da93d5f9",
+            "format": "webp",
+            "hints": {
+                "alt": "Zanzibar",
+                "classes": [
+                    "transition-transform",
+                    "duration-[1100ms]",
+                    "ease-editorial",
+                    "group-hover:scale-110"
+                ],
+                "heading": "Nine Places We Know Well"
+            }
+        },
+        {
+            "slot": "photo-1516426122078-c23e76319801",
+            "group": "photo-1516426122078-c23e76319801",
+            "viewport": "desktop",
+            "file": "photo-1516426122078-c23e76319801.webp",
+            "css": [
+                1440,
+                630
+            ],
+            "pixels": [
+                1282,
+                561
+            ],
+            "asset": "assets/31209ba7.jpg",
+            "crop": [
+                -2,
+                137,
+                1282,
+                561
+            ],
+            "page": "/destinations/amboseli",
+            "viewportSize": [
+                1440,
+                900
+            ],
+            "position": [
+                0,
+                72
+            ],
+            "kind": "img",
+            "selector": "main > div:nth-of-type(1) > img",
+            "sourcePath": "/photo-1516426122078-c23e76319801",
+            "format": "webp",
+            "hints": {
+                "alt": "Amboseli",
+                "classes": []
+            }
+        },
+        {
+            "slot": "photo-1516426122078-c23e76319801-2",
+            "group": "photo-1516426122078-c23e76319801-2",
+            "viewport": "desktop",
+            "file": "photo-1516426122078-c23e76319801.webp",
+            "css": [
+                389,
+                487
+            ],
+            "pixels": [
+                682,
+                852
+            ],
+            "asset": "assets/0c7ac809.jpg",
+            "crop": [
+                457,
+                0,
+                682,
+                852
+            ],
+            "page": "/destinations/amboseli",
+            "viewportSize": [
+                1440,
+                900
+            ],
+            "position": [
+                96,
+                1631
+            ],
+            "kind": "img",
+            "selector": "main > section > div > div:nth-of-type(2) > a > div:nth-of-type(1) > img",
+            "sourcePath": "/photo-1516426122078-c23e76319801",
+            "format": "webp",
+            "hints": {
+                "alt": "Big Five Safari",
+                "classes": [
+                    "transition-transform",
+                    "duration-[1100ms]",
+                    "ease-editorial",
+                    "group-hover:scale-110"
+                ],
+                "heading": "Big Five Safari"
+            }
+        },
+        {
+            "slot": "photo-1504942579992-ba27b4ea5877",
+            "group": "photo-1504942579992-ba27b4ea5877",
+            "viewport": "desktop",
+            "file": "photo-1504942579992-ba27b4ea5877.webp",
+            "css": [
+                1440,
+                630
+            ],
+            "pixels": [
+                1280,
+                560
+            ],
+            "asset": "assets/2b301e6c.jpg",
+            "crop": [
+                0,
+                293,
+                1280,
+                560
+            ],
+            "page": "/destinations/laikipia",
+            "viewportSize": [
+                1440,
+                900
+            ],
+            "position": [
+                0,
+                72
+            ],
+            "kind": "img",
+            "selector": "main > div:nth-of-type(1) > img",
+            "sourcePath": "/photo-1504942579992-ba27b4ea5877",
+            "format": "webp",
+            "hints": {
+                "alt": "Laikipia",
+                "classes": []
+            }
+        },
+        {
+            "slot": "photo-1551009175-8a68da93d5f9",
+            "group": "photo-1551009175-8a68da93d5f9",
+            "viewport": "desktop",
+            "file": "photo-1551009175-8a68da93d5f9.webp",
+            "css": [
+                1440,
+                630
+            ],
+            "pixels": [
+                1280,
+                560
+            ],
+            "asset": "assets/4243401c.jpg",
+            "crop": [
+                0,
+                183,
+                1280,
+                560
+            ],
+            "page": "/destinations/lake-nakuru",
+            "viewportSize": [
+                1440,
+                900
+            ],
+            "position": [
+                0,
+                72
+            ],
+            "kind": "img",
+            "selector": "main > div:nth-of-type(1) > img",
+            "sourcePath": "/photo-1551009175-8a68da93d5f9",
+            "format": "webp",
+            "hints": {
+                "alt": "Lake Nakuru",
+                "classes": []
+            }
+        },
+        {
+            "slot": "photo-1547471080-7cc2caa01a7e",
+            "group": "photo-1547471080-7cc2caa01a7e",
+            "viewport": "desktop",
+            "file": "photo-1547471080-7cc2caa01a7e.webp",
+            "css": [
+                389,
+                487
+            ],
+            "pixels": [
+                730,
+                912
+            ],
+            "asset": "assets/2d43eacc.jpg",
+            "crop": [
+                319,
+                0,
+                730,
+                912
+            ],
+            "page": "/destinations/lake-nakuru",
+            "viewportSize": [
+                1440,
+                900
+            ],
+            "position": [
+                955,
+                1677
+            ],
+            "kind": "img",
+            "selector": "main > section > div > div:nth-of-type(2) > a:nth-of-type(3) > div:nth-of-type(1) > img",
+            "sourcePath": "/photo-1547471080-7cc2caa01a7e",
+            "format": "webp",
+            "hints": {
+                "alt": "Highlights of Kenya",
+                "classes": [
+                    "transition-transform",
+                    "duration-[1100ms]",
+                    "ease-editorial",
+                    "group-hover:scale-110"
+                ],
+                "heading": "Best of Kenya Safari"
+            }
+        },
+        {
+            "slot": "photo-1564760055775-d63b17a55c44",
+            "group": "photo-1564760055775-d63b17a55c44",
+            "viewport": "desktop",
+            "file": "photo-1564760055775-d63b17a55c44.webp",
+            "css": [
+                389,
+                487
+            ],
+            "pixels": [
+                730,
+                912
+            ],
+            "asset": "assets/ca3b25de.jpg",
+            "crop": [
+                444,
+                0,
+                730,
+                912
+            ],
+            "page": "/destinations/lake-nakuru",
+            "viewportSize": [
+                1440,
+                900
+            ],
+            "position": [
+                96,
+                1677
+            ],
+            "kind": "img",
+            "selector": "main > section > div > div:nth-of-type(2) > a:nth-of-type(1) > div:nth-of-type(1) > img",
+            "sourcePath": "/photo-1564760055775-d63b17a55c44",
+            "format": "webp",
+            "hints": {
+                "alt": "Best of Kenya Safari",
+                "classes": [
+                    "transition-transform",
+                    "duration-[1100ms]",
+                    "ease-editorial",
+                    "group-hover:scale-110"
+                ],
+                "heading": "Best of Kenya Safari"
+            }
+        },
+        {
+            "slot": "photo-1516426122078-c23e76319801",
+            "group": "photo-1516426122078-c23e76319801",
+            "viewport": "desktop",
+            "file": "photo-1516426122078-c23e76319801.webp",
+            "css": [
+                389,
+                487
+            ],
+            "pixels": [
+                730,
+                912
+            ],
+            "asset": "assets/db56d1f4.jpg",
+            "crop": [
+                394,
+                0,
+                730,
+                912
+            ],
+            "page": "/destinations/lake-nakuru",
+            "viewportSize": [
+                1440,
+                900
+            ],
+            "position": [
+                525,
+                1677
+            ],
+            "kind": "img",
+            "selector": "main > section > div > div:nth-of-type(2) > a:nth-of-type(2) > div:nth-of-type(1) > img",
+            "sourcePath": "/photo-1516426122078-c23e76319801",
+            "format": "webp",
+            "hints": {
+                "alt": "Big Five Safari",
+                "classes": [
+                    "transition-transform",
+                    "duration-[1100ms]",
+                    "ease-editorial",
+                    "group-hover:scale-110"
+                ],
+                "heading": "Best of Kenya Safari"
+            }
+        },
+        {
+            "slot": "photo-1551909175-8a68da93d5f9",
+            "group": "photo-1551909175-8a68da93d5f9",
+            "viewport": "desktop",
+            "file": "photo-1551909175-8a68da93d5f9.webp",
+            "css": [
+                1440,
+                630
+            ],
+            "pixels": [
+                1280,
+                560
+            ],
+            "asset": "assets/3abbf1b6.jpg",
+            "crop": [
+                0,
+                147,
+                1280,
+                560
+            ],
+            "page": "/destinations/masai-mara",
+            "viewportSize": [
+                1440,
+                900
+            ],
+            "position": [
+                0,
+                72
+            ],
+            "kind": "img",
+            "selector": "main > div:nth-of-type(1) > img",
+            "sourcePath": "/photo-1551909175-8a68da93d5f9",
+            "format": "webp",
+            "hints": {
+                "alt": "Masai Mara",
+                "classes": []
+            }
+        },
+        {
+            "slot": "photo-1564760055775-d63b17a55c44",
+            "group": "photo-1564760055775-d63b17a55c44",
+            "viewport": "desktop",
+            "file": "photo-1564760055775-d63b17a55c44.webp",
+            "css": [
+                389,
+                487
+            ],
+            "pixels": [
+                730,
+                912
+            ],
+            "asset": "assets/ca3b25de.jpg",
+            "crop": [
+                487,
+                0,
+                730,
+                912
+            ],
+            "page": "/destinations/masai-mara",
+            "viewportSize": [
+                1440,
+                900
+            ],
+            "position": [
+                96,
+                1631
+            ],
+            "kind": "img",
+            "selector": "main > section > div > div:nth-of-type(2) > a:nth-of-type(1) > div:nth-of-type(1) > img",
+            "sourcePath": "/photo-1564760055775-d63b17a55c44",
+            "format": "webp",
+            "hints": {
+                "alt": "Best of Kenya Safari",
+                "classes": [
+                    "transition-transform",
+                    "duration-[1100ms]",
+                    "ease-editorial",
+                    "group-hover:scale-110"
+                ],
+                "heading": "Best of Kenya Safari"
+            }
+        },
+        {
+            "slot": "photo-1516426122078-c23e76319801",
+            "group": "photo-1516426122078-c23e76319801",
+            "viewport": "desktop",
+            "file": "photo-1516426122078-c23e76319801.webp",
+            "css": [
+                389,
+                487
+            ],
+            "pixels": [
+                729,
+                911
+            ],
+            "asset": "assets/2d43eacc.jpg",
+            "crop": [
+                319,
+                1,
+                729,
+                911
+            ],
+            "page": "/destinations/masai-mara",
+            "viewportSize": [
+                1440,
+                900
+            ],
+            "position": [
+                525,
+                1631
+            ],
+            "kind": "img",
+            "selector": "main > section > div > div:nth-of-type(2) > a:nth-of-type(2) > div:nth-of-type(1) > img",
+            "sourcePath": "/photo-1516426122078-c23e76319801",
+            "format": "webp",
+            "hints": {
+                "alt": "Big Five Safari",
+                "classes": [
+                    "transition-transform",
+                    "duration-[1100ms]",
+                    "ease-editorial",
+                    "group-hover:scale-110"
+                ],
+                "heading": "Best of Kenya Safari"
+            }
+        },
+        {
+            "slot": "photo-1547471080-7cc2caa01a7e",
+            "group": "photo-1547471080-7cc2caa01a7e",
+            "viewport": "desktop",
+            "file": "photo-1547471080-7cc2caa01a7e.webp",
+            "css": [
+                389,
+                487
+            ],
+            "pixels": [
+                730,
+                912
+            ],
+            "asset": "assets/db56d1f4.jpg",
+            "crop": [
+                414,
+                0,
+                730,
+                912
+            ],
+            "page": "/destinations/masai-mara",
+            "viewportSize": [
+                1440,
+                900
+            ],
+            "position": [
+                955,
+                1631
+            ],
+            "kind": "img",
+            "selector": "main > section > div > div:nth-of-type(2) > a:nth-of-type(3) > div:nth-of-type(1) > img",
+            "sourcePath": "/photo-1547471080-7cc2caa01a7e",
+            "format": "webp",
+            "hints": {
+                "alt": "Highlights of Kenya",
+                "classes": [
+                    "transition-transform",
+                    "duration-[1100ms]",
+                    "ease-editorial",
+                    "group-hover:scale-110"
+                ],
+                "heading": "Best of Kenya Safari"
+            }
+        },
+        {
+            "slot": "photo-1528360983277-13d401cdc186",
+            "group": "photo-1528360983277-13d401cdc186",
+            "viewport": "desktop",
+            "file": "photo-1528360983277-13d401cdc186.webp",
+            "css": [
+                1440,
+                630
+            ],
+            "pixels": [
+                1370,
+                599
+            ],
+            "asset": "assets/48eaf606.jpg",
+            "crop": [
+                0,
+                235,
+                1370,
+                599
+            ],
+            "page": "/destinations/ngorongoro-crater",
+            "viewportSize": [
+                1440,
+                900
+            ],
+            "position": [
+                0,
+                72
+            ],
+            "kind": "img",
+            "selector": "main > div:nth-of-type(1) > img",
+            "sourcePath": "/photo-1528360983277-13d401cdc186",
+            "format": "webp",
+            "hints": {
+                "alt": "Ngorongoro Crater",
+                "classes": []
+            }
+        },
+        {
+            "slot": "photo-1516426122078-c23e76319801",
+            "group": "photo-1516426122078-c23e76319801",
+            "viewport": "desktop",
+            "file": "photo-1516426122078-c23e76319801.webp",
+            "css": [
+                389,
+                487
+            ],
+            "pixels": [
+                730,
+                912
+            ],
+            "asset": "assets/db56d1f4.jpg",
+            "crop": [
+                381,
+                0,
+                730,
+                912
+            ],
+            "page": "/destinations/ngorongoro-crater",
+            "viewportSize": [
+                1440,
+                900
+            ],
+            "position": [
+                96,
+                1605
+            ],
+            "kind": "img",
+            "selector": "main > section > div > div:nth-of-type(2) > a:nth-of-type(1) > div:nth-of-type(1) > img",
+            "sourcePath": "/photo-1516426122078-c23e76319801",
+            "format": "webp",
+            "hints": {
+                "alt": "Big Five Safari",
+                "classes": [
+                    "transition-transform",
+                    "duration-[1100ms]",
+                    "ease-editorial",
+                    "group-hover:scale-110"
+                ],
+                "heading": "Big Five Safari"
+            }
+        },
+        {
+            "slot": "photo-1528360983277-13d401cdc186-2",
+            "group": "photo-1528360983277-13d401cdc186-2",
+            "viewport": "desktop",
+            "file": "photo-1528360983277-13d401cdc186.webp",
+            "css": [
+                389,
+                487
+            ],
+            "pixels": [
+                733,
+                916
+            ],
+            "asset": "assets/8f5d4312.jpg",
+            "crop": [
+                318,
+                -4,
+                733,
+                916
+            ],
+            "page": "/destinations/ngorongoro-crater",
+            "viewportSize": [
+                1440,
+                900
+            ],
+            "position": [
+                525,
+                1605
+            ],
+            "kind": "img",
+            "selector": "main > section > div > div:nth-of-type(2) > a:nth-of-type(2) > div:nth-of-type(1) > img",
+            "sourcePath": "/photo-1528360983277-13d401cdc186",
+            "format": "webp",
+            "hints": {
+                "alt": "Best of Tanzania",
+                "classes": [
+                    "transition-transform",
+                    "duration-[1100ms]",
+                    "ease-editorial",
+                    "group-hover:scale-110"
+                ],
+                "heading": "Big Five Safari"
+            }
+        },
+        {
+            "slot": "photo-1564760055775-d63b17a55c44",
+            "group": "photo-1564760055775-d63b17a55c44",
+            "viewport": "desktop",
+            "file": "photo-1564760055775-d63b17a55c44.webp",
+            "css": [
+                1440,
+                630
+            ],
+            "pixels": [
+                1368,
+                599
+            ],
+            "asset": "assets/215b27ae.jpg",
+            "crop": [
+                0,
+                99,
+                1368,
+                599
+            ],
+            "page": "/destinations/samburu",
+            "viewportSize": [
+                1440,
+                900
+            ],
+            "position": [
+                0,
+                72
+            ],
+            "kind": "img",
+            "selector": "main > div:nth-of-type(1) > img",
+            "sourcePath": "/photo-1564760055775-d63b17a55c44",
+            "format": "webp",
+            "hints": {
+                "alt": "Samburu",
+                "classes": []
+            }
+        },
+        {
+            "slot": "photo-1564760055775-d63b17a55c44-2",
+            "group": "photo-1564760055775-d63b17a55c44-2",
+            "viewport": "desktop",
+            "file": "photo-1564760055775-d63b17a55c44.webp",
+            "css": [
+                389,
+                487
+            ],
+            "pixels": [
+                730,
+                912
+            ],
+            "asset": "assets/ca3b25de.jpg",
+            "crop": [
+                441,
+                0,
+                730,
+                912
+            ],
+            "page": "/destinations/samburu",
+            "viewportSize": [
+                1440,
+                900
+            ],
+            "position": [
+                96,
+                1651
+            ],
+            "kind": "img",
+            "selector": "main > section > div > div:nth-of-type(2) > a:nth-of-type(1) > div:nth-of-type(1) > img",
+            "sourcePath": "/photo-1564760055775-d63b17a55c44",
+            "format": "webp",
+            "hints": {
+                "alt": "Best of Kenya Safari",
+                "classes": [
+                    "transition-transform",
+                    "duration-[1100ms]",
+                    "ease-editorial",
+                    "group-hover:scale-110"
+                ],
+                "heading": "Best of Kenya Safari"
+            }
+        },
+        {
+            "slot": "photo-1547471080-7cc2caa01a7e",
+            "group": "photo-1547471080-7cc2caa01a7e",
+            "viewport": "desktop",
+            "file": "photo-1547471080-7cc2caa01a7e.webp",
+            "css": [
+                389,
+                487
+            ],
+            "pixels": [
+                730,
+                912
+            ],
+            "asset": "assets/2e6451e3.jpg",
+            "crop": [
+                232,
+                0,
+                730,
+                912
+            ],
+            "page": "/destinations/samburu",
+            "viewportSize": [
+                1440,
+                900
+            ],
+            "position": [
+                525,
+                1651
+            ],
+            "kind": "img",
+            "selector": "main > section > div > div:nth-of-type(2) > a:nth-of-type(2) > div:nth-of-type(1) > img",
+            "sourcePath": "/photo-1547471080-7cc2caa01a7e",
+            "format": "webp",
+            "hints": {
+                "alt": "Highlights of Kenya",
+                "classes": [
+                    "transition-transform",
+                    "duration-[1100ms]",
+                    "ease-editorial",
+                    "group-hover:scale-110"
+                ],
+                "heading": "Best of Kenya Safari"
+            }
+        },
+        {
+            "slot": "photo-1516426122078-c23e76319801",
+            "group": "photo-1516426122078-c23e76319801",
+            "viewport": "desktop",
+            "file": "photo-1516426122078-c23e76319801.webp",
+            "css": [
+                389,
+                487
+            ],
+            "pixels": [
+                730,
+                912
+            ],
+            "asset": "assets/db56d1f4.jpg",
+            "crop": [
+                436,
+                0,
+                730,
+                912
+            ],
+            "page": "/destinations/serengeti",
+            "viewportSize": [
+                1440,
+                900
+            ],
+            "position": [
+                96,
+                1657
+            ],
+            "kind": "img",
+            "selector": "main > section > div > div:nth-of-type(2) > a:nth-of-type(1) > div:nth-of-type(1) > img",
+            "sourcePath": "/photo-1516426122078-c23e76319801",
+            "format": "webp",
+            "hints": {
+                "alt": "Big Five Safari",
+                "classes": [
+                    "transition-transform",
+                    "duration-[1100ms]",
+                    "ease-editorial",
+                    "group-hover:scale-110"
+                ],
+                "heading": "Big Five Safari"
+            }
+        },
+        {
+            "slot": "photo-1528360983277-13d401cdc186",
+            "group": "photo-1528360983277-13d401cdc186",
+            "viewport": "desktop",
+            "file": "photo-1528360983277-13d401cdc186.webp",
+            "css": [
+                389,
+                487
+            ],
+            "pixels": [
+                732,
+                915
+            ],
+            "asset": "assets/8f5d4312.jpg",
+            "crop": [
+                318,
+                -2,
+                732,
+                915
+            ],
+            "page": "/destinations/serengeti",
+            "viewportSize": [
+                1440,
+                900
+            ],
+            "position": [
+                525,
+                1657
+            ],
+            "kind": "img",
+            "selector": "main > section > div > div:nth-of-type(2) > a:nth-of-type(2) > div:nth-of-type(1) > img",
+            "sourcePath": "/photo-1528360983277-13d401cdc186",
+            "format": "webp",
+            "hints": {
+                "alt": "Best of Tanzania",
+                "classes": [
+                    "transition-transform",
+                    "duration-[1100ms]",
+                    "ease-editorial",
+                    "group-hover:scale-110"
+                ],
+                "heading": "Big Five Safari"
+            }
+        },
+        {
+            "slot": "photo-1516026672447-2b2d76e74a3e",
+            "group": "photo-1516026672447-2b2d76e74a3e",
+            "viewport": "desktop",
+            "file": "photo-1516026672447-2b2d76e74a3e.webp",
+            "css": [
+                1440,
+                630
+            ],
+            "pixels": [
+                1366,
+                598
+            ],
+            "asset": "assets/d45447ad.jpg",
+            "crop": [
+                0,
+                157,
+                1366,
+                598
+            ],
+            "page": "/destinations/tarangire",
+            "viewportSize": [
+                1440,
+                900
+            ],
+            "position": [
+                0,
+                72
+            ],
+            "kind": "img",
+            "selector": "main > div:nth-of-type(1) > img",
+            "sourcePath": "/photo-1516026672447-2b2d76e74a3e",
+            "format": "webp",
+            "hints": {
+                "alt": "Tarangire",
+                "classes": []
+            }
+        },
+        {
+            "slot": "photo-1528360983277-13d401cdc186",
+            "group": "photo-1528360983277-13d401cdc186",
+            "viewport": "desktop",
+            "file": "photo-1528360983277-13d401cdc186.webp",
+            "css": [
+                389,
+                487
+            ],
+            "pixels": [
+                730,
+                912
+            ],
+            "asset": "assets/ca3b25de.jpg",
+            "crop": [
+                430,
+                0,
+                730,
+                912
+            ],
+            "page": "/destinations/tarangire",
+            "viewportSize": [
+                1440,
+                900
+            ],
+            "position": [
+                96,
+                1651
+            ],
+            "kind": "img",
+            "selector": "main > section > div > div:nth-of-type(2) > a > div:nth-of-type(1) > img",
+            "sourcePath": "/photo-1528360983277-13d401cdc186",
+            "format": "webp",
+            "hints": {
+                "alt": "Best of Tanzania",
+                "classes": [
+                    "transition-transform",
+                    "duration-[1100ms]",
+                    "ease-editorial",
+                    "group-hover:scale-110"
+                ],
+                "heading": "Best of Tanzania"
+            }
+        },
+        {
+            "slot": "photo-1551909175-8a68da93d5f9",
+            "group": "photo-1551909175-8a68da93d5f9",
+            "viewport": "desktop",
+            "file": "photo-1551909175-8a68da93d5f9.webp",
+            "css": [
+                1440,
+                630
+            ],
+            "pixels": [
+                1368,
+                599
+            ],
+            "asset": "assets/4f119287.jpg",
+            "crop": [
+                0,
+                35,
+                1368,
+                599
+            ],
+            "page": "/destinations/zanzibar",
+            "viewportSize": [
+                1440,
+                900
+            ],
+            "position": [
+                0,
+                72
+            ],
+            "kind": "img",
+            "selector": "main > div:nth-of-type(1) > img",
+            "sourcePath": "/photo-1551909175-8a68da93d5f9",
+            "format": "webp",
+            "hints": {
+                "alt": "Zanzibar",
+                "classes": []
+            }
+        },
+        {
+            "slot": "photo-1528360983277-13d401cdc186",
+            "group": "photo-1528360983277-13d401cdc186",
+            "viewport": "desktop",
+            "file": "photo-1528360983277-13d401cdc186.webp",
+            "css": [
+                389,
+                487
+            ],
+            "pixels": [
+                731,
+                914
+            ],
+            "asset": "assets/8f5d4312.jpg",
+            "crop": [
+                319,
+                -2,
+                731,
+                914
+            ],
+            "page": "/destinations/zanzibar",
+            "viewportSize": [
+                1440,
+                900
+            ],
+            "position": [
+                96,
+                1605
+            ],
+            "kind": "img",
+            "selector": "main > section > div > div:nth-of-type(2) > a > div:nth-of-type(1) > img",
+            "sourcePath": "/photo-1528360983277-13d401cdc186",
+            "format": "webp",
+            "hints": {
+                "alt": "Best of Tanzania",
+                "classes": [
+                    "transition-transform",
+                    "duration-[1100ms]",
+                    "ease-editorial",
+                    "group-hover:scale-110"
+                ],
+                "heading": "Best of Tanzania"
+            }
+        },
+        {
+            "slot": "photo-1528360983277-13d401cdc186",
+            "group": "photo-1528360983277-13d401cdc186",
+            "viewport": "desktop",
+            "file": "photo-1528360983277-13d401cdc186.webp",
+            "css": [
+                389,
+                487
+            ],
+            "pixels": [
+                731,
+                914
+            ],
+            "asset": "assets/8f5d4312.jpg",
+            "crop": [
+                319,
+                -2,
+                731,
+                914
+            ],
+            "page": "/experience",
+            "viewportSize": [
+                1440,
+                900
+            ],
+            "position": [
+                96,
+                1733
+            ],
+            "kind": "img",
+            "selector": "main > section:nth-of-type(2) > div > div:nth-of-type(4) > a > div:nth-of-type(1) > img",
+            "sourcePath": "/photo-1528360983277-13d401cdc186",
+            "format": "webp",
+            "hints": {
+                "alt": "Best of Tanzania",
+                "classes": [
+                    "transition-transform",
+                    "duration-[1100ms]",
+                    "ease-editorial",
+                    "group-hover:scale-110"
+                ],
+                "heading": "Best of Kenya Safari"
+            }
+        },
+        {
+            "slot": "photo-1504942579992-ba27b4ea5877",
+            "group": "photo-1504942579992-ba27b4ea5877",
+            "viewport": "desktop",
+            "file": "photo-1504942579992-ba27b4ea5877.webp",
+            "css": [
+                1440,
+                630
+            ],
+            "pixels": [
+                1261,
+                552
+            ],
+            "asset": "assets/90751cee.jpg",
+            "crop": [
+                0,
+                219,
+                1261,
+                552
+            ],
+            "page": "/experience",
+            "viewportSize": [
+                1440,
+                900
+            ],
+            "position": [
+                0,
+                72
+            ],
+            "kind": "img",
+            "selector": "main > div > img",
+            "sourcePath": "/photo-1504942579992-ba27b4ea5877",
+            "format": "webp",
+            "hints": {
+                "alt": "Safari journeys across Kenya and Tanzania",
+                "classes": []
+            }
+        },
+        {
+            "slot": "photo-1564760055775-d63b17a55c44",
+            "group": "photo-1564760055775-d63b17a55c44",
+            "viewport": "desktop",
+            "file": "photo-1564760055775-d63b17a55c44.webp",
+            "css": [
+                1440,
+                540
+            ],
+            "pixels": [
+                1368,
+                513
+            ],
+            "asset": "assets/2e6451e3.jpg",
+            "crop": [
+                0,
+                278,
+                1368,
+                513
+            ],
+            "page": "/experience/best-of-kenya-safari",
+            "viewportSize": [
+                1440,
+                900
+            ],
+            "position": [
+                0,
+                72
+            ],
+            "kind": "img",
+            "selector": "main > div:nth-of-type(1) > img",
+            "sourcePath": "/photo-1564760055775-d63b17a55c44",
+            "format": "webp",
+            "hints": {
+                "alt": "Best of Kenya Safari",
+                "classes": []
+            }
+        },
+        {
+            "slot": "photo-1528360983277-13d401cdc186",
+            "group": "photo-1528360983277-13d401cdc186",
+            "viewport": "desktop",
+            "file": "photo-1528360983277-13d401cdc186.webp",
+            "css": [
+                1440,
+                540
+            ],
+            "pixels": [
+                1368,
+                513
+            ],
+            "asset": "assets/8f5d4312.jpg",
+            "crop": [
+                0,
+                199,
+                1368,
+                513
+            ],
+            "page": "/experience/best-of-tanzania",
+            "viewportSize": [
+                1440,
+                900
+            ],
+            "position": [
+                0,
+                72
+            ],
+            "kind": "img",
+            "selector": "main > div:nth-of-type(1) > img",
+            "sourcePath": "/photo-1528360983277-13d401cdc186",
+            "format": "webp",
+            "hints": {
+                "alt": "Best of Tanzania",
+                "classes": []
+            }
+        },
+        {
+            "slot": "photo-1516426122078-c23e76319801",
+            "group": "photo-1516426122078-c23e76319801",
+            "viewport": "desktop",
+            "file": "photo-1516426122078-c23e76319801.webp",
+            "css": [
+                1440,
+                540
+            ],
+            "pixels": [
+                1368,
+                513
+            ],
+            "asset": "assets/db56d1f4.jpg",
+            "crop": [
+                0,
+                112,
+                1368,
+                513
+            ],
+            "page": "/experience/big-five-safari",
+            "viewportSize": [
+                1440,
+                900
+            ],
+            "position": [
+                0,
+                72
+            ],
+            "kind": "img",
+            "selector": "main > div:nth-of-type(1) > img",
+            "sourcePath": "/photo-1516426122078-c23e76319801",
+            "format": "webp",
+            "hints": {
+                "alt": "Big Five Safari",
+                "classes": []
+            }
+        },
+        {
+            "slot": "photo-1547471080-7cc2caa01a7e",
+            "group": "photo-1547471080-7cc2caa01a7e",
+            "viewport": "desktop",
+            "file": "photo-1547471080-7cc2caa01a7e.webp",
+            "css": [
+                1440,
+                540
+            ],
+            "pixels": [
+                1368,
+                513
+            ],
+            "asset": "assets/2d43eacc.jpg",
+            "crop": [
+                0,
+                200,
+                1368,
+                513
+            ],
+            "page": "/experience/highlights-of-kenya",
+            "viewportSize": [
+                1440,
+                900
+            ],
+            "position": [
+                0,
+                72
+            ],
+            "kind": "img",
+            "selector": "main > div:nth-of-type(1) > img",
+            "sourcePath": "/photo-1547471080-7cc2caa01a7e",
+            "format": "webp",
+            "hints": {
+                "alt": "Highlights of Kenya",
+                "classes": []
+            }
+        }
+    ]
+}

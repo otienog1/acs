@@ -26,7 +26,7 @@ export const COUNTRIES: CountryEntry[] = [
             "A well-established network of small camps run by people who've been in the bush for decades",
         ],
         gateway: 'Nairobi (Jomo Kenyatta International Airport)',
-        image: 'https://images.unsplash.com/photo-1551009175-8a68da93d5f9?auto=format&fit=crop&w=1600&q=80',
+        image: '/images/countries/kenya-hero.webp',
     },
     {
         slug: 'tanzania',
@@ -44,7 +44,7 @@ export const COUNTRIES: CountryEntry[] = [
             'A direct route from the northern safari circuit to the beaches of Zanzibar',
         ],
         gateway: 'Kilimanjaro International Airport, near Arusha',
-        image: 'https://images.unsplash.com/photo-1516026672447-2b2d76e74a3e?auto=format&fit=crop&w=1600&q=80',
+        image: '/images/countries/tanzania-hero.webp',
     },
 ]
 

@@ -51,7 +51,7 @@ const AboutPage = async () => {
             <div className="relative h-[70vh] min-h-[520px] w-full overflow-hidden">
                 <Image
                     src={a.images[0].url}
-                    alt="African Citril Safaris"
+                    alt="An elephant herd moving past a stationary safari vehicle on the plains"
                     fill
                     priority
                     sizes="100vw"
@@ -97,7 +97,7 @@ const AboutPage = async () => {
                             <div className="relative h-80 overflow-hidden lg:h-[520px]">
                                 <Image
                                     src={a.our_story.url}
-                                    alt="Our story — African Citril Safaris"
+                                    alt="A martial eagle perched on a bush, scanning the plains below"
                                     fill
                                     style={{ objectFit: "cover" }}
                                 />
@@ -158,9 +158,10 @@ const AboutPage = async () => {
             {/* ── FINAL CTA ────────────────────────────────────────── */}
             <section className="relative mx-8 my-24 flex min-h-[420px] items-center overflow-hidden md:mx-16 lg:mx-24">
                 <Image
-                    src="https://images.unsplash.com/photo-1547471080-7cc2caa01a7e?auto=format&fit=crop&w=1600&q=80"
-                    alt="Sundowner over the plains"
+                    src="/images/about/sundowner.webp"
+                    alt="Zebra grazing on the plains as the sun drops to the horizon"
                     fill
+                    sizes="100vw"
                     style={{ objectFit: 'cover' }}
                 />
                 <div className="absolute inset-0 bg-ink/70" />
